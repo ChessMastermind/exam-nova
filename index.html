@@ -3,68 +3,83 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ExamNova — IAL Tracker</title>
+  <title>ExamNova — Universal Tracker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
   <style>
-    :root{--bg:#0e0f1a;--bg3:#161726;--bdr:#26283d;--gold:#c9a84c;--teal:#4a9b8f;--muted:#7a7d99;--white:#f0ecdf;--fh:'Cormorant Garamond',serif;--fm:'JetBrains Mono',monospace;--fb:'DM Sans',sans-serif;--shadow:0 10px 40px rgba(0,0,0,0.5);--ease:cubic-bezier(0.4, 0, 0.2, 1)}
+    :root{--bg:#0e0f1a;--bg3:#161726;--bdr:#26283d;--gold:#c9a84c;--teal:#4a9b8f;--red:#c94c6a;--muted:#7a7d99;--white:#f0ecdf;--fh:'Cormorant Garamond',serif;--fm:'JetBrains Mono',monospace;--fb:'DM Sans',sans-serif;--shadow:0 10px 40px rgba(0,0,0,0.5);--ease:cubic-bezier(0.4, 0, 0.2, 1)}
     
     *{box-sizing:border-box;margin:0;padding:0}
     body{background:var(--bg);color:var(--white);font-family:var(--fb);font-size:14px;min-height:100vh;overflow-x:hidden}
-    body::before{content:'';position:fixed;inset:0;z-index:0;background-image:linear-gradient(rgba(201,168,76,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(201,168,76,.03) 1px,transparent 1px);background-size:50px 50px;pointer-events:none}
+    body::before{content:'';position:fixed;inset:0;z-index:0;background-image:linear-gradient(rgba(201,168,76,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(201,168,76,.02) 1px,transparent 1px);background-size:60px 60px;pointer-events:none}
 
     .wrap{position:relative;z-index:1;max-width:1100px;margin:0 auto;padding:0 24px}
-    header{padding:20px 0;border-bottom:1px solid var(--bdr);background:rgba(14,15,26,0.8);backdrop-filter:blur(10px);position:sticky;top:0;z-index:100}
+    header{padding:18px 0;border-bottom:1px solid var(--bdr);background:rgba(14,15,26,0.85);backdrop-filter:blur(12px);position:sticky;top:0;z-index:100}
     .hi{display:flex;align-items:center;justify-content:space-between}
-    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
-    .blogo{width:34px;height:34px;background:linear-gradient(135deg,var(--gold),var(--teal));border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-weight:700;color:#000}
-    .bname{font-family:var(--fh);font-size:20px;font-weight:600}
+    .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
+    .blogo{width:32px;height:32px;background:linear-gradient(135deg,var(--gold),var(--teal));border-radius:6px;display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-weight:700;color:#000;font-size:18px}
+    .bname{font-family:var(--fh);font-size:22px;font-weight:600}
     .bname span{color:var(--gold)}
+    .sinfo{font-family:var(--fm);font-size:10px;color:var(--muted)}
 
-    .nstrip{margin:30px 0;padding:25px;background:var(--bg3);border:1px solid var(--bdr);border-radius:16px;display:flex;align-items:center;gap:30px;flex-wrap:wrap;box-shadow:var(--shadow)}
+    /* Hero & Strip */
+    .hero{padding:40px 0 20px}
+    .hsup{font-family:var(--fm);font-size:10px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;margin-bottom:8px}
+    
+    .nstrip{margin-bottom:35px;padding:25px;background:var(--bg3);border:1px solid var(--bdr);border-radius:16px;display:flex;align-items:center;gap:30px;flex-wrap:wrap;box-shadow:var(--shadow)}
     .ninfo{flex:1;min-width:280px}
-    .nlbl{font-family:var(--fm);font-size:10px;text-transform:uppercase;letter-spacing:2px;color:var(--gold);margin-bottom:8px}
-    .ntitle{font-family:var(--fh);font-size:24px;line-height:1.2;margin-bottom:4px}
-    .nsub{font-family:var(--fm);font-size:11px;color:var(--teal)}
+    .nlbl{font-family:var(--fm);font-size:9px;text-transform:uppercase;letter-spacing:2px;color:var(--gold);margin-bottom:6px}
+    .ntitle{font-family:var(--fh);font-size:24px;line-height:1.2;color:var(--white)}
+    .nsub{font-family:var(--fm);font-size:11px;color:var(--teal);margin-top:4px}
     
     .cdg{display:flex;gap:15px}
     .cdb{text-align:center;min-width:45px}
     .cdn{font-family:var(--fm);font-size:28px;font-weight:500;color:var(--white)}
     .cdl2{font-size:8px;text-transform:uppercase;color:var(--muted);margin-top:2px}
 
-    .controls{display:flex;gap:10px;margin-bottom:25px}
-    .si2{flex:1;background:var(--bg3);border:1px solid var(--bdr);padding:12px 18px;border-radius:10px;color:var(--white);font-size:14px;outline:none;transition:0.2s}
+    /* Tabs & Controls */
+    .filter-row{display:flex;gap:8px;margin-bottom:15px;flex-wrap:wrap}
+    .ftab{background:transparent;border:1px solid var(--bdr);padding:8px 16px;border-radius:20px;color:var(--muted);cursor:pointer;font-size:12px;transition:0.2s;font-weight:500}
+    .ftab.active{border-color:var(--gold);color:var(--gold);background:rgba(201,168,76,0.05)}
+    
+    .controls{display:flex;gap:10px;margin-bottom:30px}
+    .si2{flex:1;background:var(--bg3);border:1px solid var(--bdr);padding:14px 20px;border-radius:12px;color:var(--white);font-size:15px;outline:none}
     .si2:focus{border-color:var(--gold)}
-    .meb{background:var(--bg3);border:1px solid var(--bdr);padding:0 20px;border-radius:10px;color:var(--muted);cursor:pointer;font-weight:600;font-size:12px;transition:0.2s}
+    .meb{background:var(--bg3);border:1px solid var(--bdr);padding:0 24px;border-radius:12px;color:var(--muted);cursor:pointer;font-weight:600;font-size:13px}
     .meb.on{border-color:var(--teal);color:var(--teal);background:rgba(74,155,143,0.1)}
 
-    .eg{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-bottom:50px}
-    .ec{background:var(--bg3);border:1px solid var(--bdr);border-radius:12px;padding:18px;position:relative;transition:0.3s var(--ease)}
-    .ec:hover{border-color:var(--gold);transform:translateY(-3px);box-shadow:var(--shadow)}
+    /* Grid */
+    .eg{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:14px;margin-bottom:60px}
+    .ec{background:var(--bg3);border:1px solid var(--bdr);border-radius:14px;padding:20px;transition:0.3s var(--ease);position:relative}
+    .ec:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:var(--shadow)}
+    
+    /* Key Date Special Styling */
+    .ec.rk{border-left:4px solid var(--red)}
+    .ec.rk .cser{color:var(--red)}
+    .ec.rk .ctit{color:var(--white)}
     .ec.mine{border-left:4px solid var(--teal)}
 
     .ct{display:flex;justify-content:space-between;margin-bottom:12px}
-    .cser{font-family:var(--fm);font-size:9px;color:var(--gold);text-transform:uppercase;font-weight:600}
+    .cser{font-family:var(--fm);font-size:9px;color:var(--gold);text-transform:uppercase;font-weight:700}
     .ccod{font-family:var(--fm);font-size:10px;color:var(--muted)}
+    .ctit{font-size:15px;font-weight:500;margin-bottom:18px;line-height:1.4;height:42px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
     
-    .ctit{font-size:15px;font-weight:500;margin-bottom:15px;line-height:1.4;height:42px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:var(--white)}
-    
-    .cf{display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,0.05);padding-top:12px}
+    .cf{display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,0.05);padding-top:15px}
     .cdate{font-weight:600;font-size:13px}
     .cb{display:flex;align-items:center;gap:6px}
-    .cbdg{font-family:var(--fm);font-size:9px;padding:1px 5px;border-radius:3px;background:rgba(255,255,255,0.05)}
+    .cbdg{font-family:var(--fm);font-size:9px;padding:2px 6px;border-radius:4px;background:rgba(255,255,255,0.05)}
     .am{color:var(--gold)}.pm{color:var(--teal)}
     
-    .star{background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;transition:0.2s}
+    .star{background:none;border:none;color:var(--muted);font-size:22px;cursor:pointer;transition:0.2s}
     .star.on{color:var(--gold)}
 
     footer{padding:30px 0;border-top:1px solid var(--bdr);text-align:center;font-size:11px;color:var(--muted)}
     
     @media (max-width: 600px) {
-      .nstrip{padding:20px;gap:15px}
-      .cdg{gap:8px}
-      .cdn{font-size:22px}
+      .nstrip{padding:20px;gap:20px}
+      .cdg{gap:10px}
+      .cdn{font-size:24px}
     }
   </style>
 </head>
@@ -81,9 +96,13 @@
 </header>
 
 <main class="wrap">
+  <div class="hero">
+    <p class="hsup">Academic Command Center</p>
+  </div>
+
   <div class="nstrip">
     <div class="ninfo">
-      <div class="nlbl" id="nstatus">Pulse</div>
+      <div class="nlbl" id="nstatus">Next Target</div>
       <div class="ntitle" id="ntitle">...</div>
       <div class="nsub" id="nsub">...</div>
     </div>
@@ -95,14 +114,190 @@
     </div>
   </div>
 
+  <div class="filter-row">
+    <button class="ftab active" data-q="all">All Entries</button>
+    <button class="ftab" data-q="ial">A-Levels (IAL)</button>
+    <button class="ftab" data-q="ig">IGCSE</button>
+    <button class="ftab" data-q="kd">Key Dates</button>
+  </div>
+
   <div class="controls">
-    <input class="si2" id="search" type="text" placeholder="Filter by unit or title..." />
+    <input class="si2" id="search" type="text" placeholder="Search subject, code or specific month..." autofocus />
     <button class="meb" id="mebtn">★ My Schedule</button>
   </div>
 
   <div id="cal" class="eg"></div>
 </main>
 
+<footer>
+  <div class="wrap">ExamNova &nbsp;&middot;&nbsp; Combined IAL & IGCSE Tracker</div>
+</footer>
+
+<script>
+'use strict';
+
+// 1. ADD BUILT-IN KEY DATES (Based on provided link)
+const KEY_DATES = [
+    { id: "kd1", code: "DEADLINE", title: "Last Day for Withdrawals (Refund)", dateStr: "2026-04-21", type: "keydate", series: "Admin" },
+    { id: "kd2", code: "FEES", title: "Late Entry Fees Apply from this Date", dateStr: "2026-04-22", type: "keydate", series: "Admin" },
+    { id: "kd3", code: "RESULTS", title: "GCE A-Level Results Day", dateStr: "2026-08-13", type: "keydate", series: "Results" },
+    { id: "kd4", code: "RESULTS", title: "International GCSE Results Day", dateStr: "2026-08-20", type: "keydate", series: "Results" }
+];
+
+let ALL = [];
+let MY = new Set(JSON.parse(localStorage.getItem('Nova_Starred') || '[]'));
+let MYONLY = false;
+let QRY = '';
+let QUAL_FILTER = 'all';
+let CDT = null;
+
+const MESSAGES = [
+  "Your schedule is a blank canvas of academic peace.",
+  "No exams chosen? Chilling level: Expert.",
+  "DENIAL is not just a river in Egypt. Pick a paper.",
+  "Waiting for you to star an exam is like waiting for a results email.",
+  "Your schedule is emptier than a library on a Friday night."
+];
+const SESSION_MSG = MESSAGES[Math.floor(Math.random() * MESSAGES.length)];
+
+async function init() {
+  try {
+    const resp = await fetch('timetables.json');
+    const externalData = await resp.json();
+    
+    const combined = [...externalData, ...KEY_DATES];
+
+    ALL = combined.map(e => {
+      const fullTxt = (e.label || e.series || '').toLowerCase();
+      let tag = 'EXAM';
+      if (e.type === 'keydate') tag = 'KEY DATE';
+      else if (fullTxt.includes('summer')) tag = 'SUMMER';
+      else if (fullTxt.includes('oct')) tag = 'OCT';
+      else if (fullTxt.includes('jan')) tag = 'JAN';
+
+      // Detect Qualification for filtering
+      let qualType = 'other';
+      if (fullTxt.includes('gcse') || fullTxt.includes('ig')) qualType = 'ig';
+      else if (fullTxt.includes('level') || fullTxt.includes('ial')) qualType = 'ial';
+      if (e.type === 'keydate') qualType = 'kd';
+
+      return {
+        ...e,
+        tag,
+        qualType,
+        jsDate: new Date(e.dateStr + (e.sess === 'PM' ? 'T13:30:00' : 'T09:00:00'))
+      };
+    }).sort((a,b) => a.jsDate - b.jsDate);
+
+    document.getElementById('sinfo').textContent = ALL.length + ' Entries Synced';
+    updatePulse();
+    render();
+  } catch (e) {
+    document.getElementById('cal').innerHTML = "JSON Data Missing.";
+  }
+}
+
+function updatePulse() {
+  const now = new Date();
+  const next = ALL.find(e => MY.has(e.id) && e.jsDate > now);
+  const titleEl = document.getElementById('ntitle');
+  const subEl = document.getElementById('nsub');
+  const statEl = document.getElementById('nstatus');
+
+  if (MY.size === 0) {
+    statEl.textContent = "Status: Chilling";
+    titleEl.textContent = SESSION_MSG;
+    subEl.textContent = "↑ Click the star on any unit below to begin tracking.";
+    CDT = null;
+    return;
+  }
+
+  if (!next) {
+    statEl.textContent = "Status: Finished";
+    titleEl.textContent = "Mission Accomplished. All exams done.";
+    subEl.textContent = "Time to enjoy your freedom.";
+    CDT = null;
+    return;
+  }
+
+  statEl.textContent = "Next Event: " + next.code;
+  titleEl.textContent = next.title;
+  subEl.textContent = next.jsDate.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' }) + (next.sess ? " — " + next.sess : "");
+  CDT = next.jsDate;
+}
+
+function tick() {
+  if (!CDT) {
+    ['cdd','cdh','cdm','cds'].forEach(id => document.getElementById(id).textContent = '00');
+    return;
+  }
+  const diff = CDT - Date.now();
+  if (diff <= 0) { updatePulse(); return; }
+  const d = Math.floor(diff / 86400000);
+  const h = Math.floor((diff % 86400000) / 3600000);
+  const m = Math.floor((diff % 3600000) / 60000);
+  const s = Math.floor((diff % 60000) / 1000);
+  document.getElementById('cdd').textContent = String(d).padStart(2, '0');
+  document.getElementById('cdh').textContent = String(h).padStart(2, '0');
+  document.getElementById('cdm').textContent = String(m).padStart(2, '0');
+  document.getElementById('cds').textContent = String(s).padStart(2, '0');
+}
+
+function render() {
+  const cal = document.getElementById('cal');
+  const filtered = ALL.filter(e => {
+    if (MYONLY && !MY.has(e.id)) return false;
+    if (QUAL_FILTER !== 'all' && e.qualType !== QUAL_FILTER) return false;
+    const term = QRY.toLowerCase();
+    return e.title.toLowerCase().includes(term) || e.code.toLowerCase().includes(term);
+  });
+
+  cal.innerHTML = filtered.map(e => `
+    <div class="ec ${e.type === 'keydate' ? 'rk' : ''} ${MY.has(e.id) ? 'mine' : ''}">
+      <div class="ct">
+        <span class="cser">${e.tag}</span>
+        <span class="ccod">${e.code}</span>
+      </div>
+      <div class="ctit">${e.title}</div>
+      <div class="cf">
+        <div class="cb">
+          <span class="cdate">${e.jsDate.toLocaleDateString('en-GB', {day:'2-digit', month:'short'})}</span>
+          ${e.sess ? `<span class="cbdg ${e.sess.toLowerCase()}">${e.sess}</span>` : ''}
+        </div>
+        <button class="star ${MY.has(e.id) ? 'on' : ''}" onclick="toggleStar('${e.id}')">★</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+window.toggleStar = (id) => {
+  MY.has(id) ? MY.delete(id) : MY.add(id);
+  localStorage.setItem('Nova_Starred', JSON.stringify([...MY]));
+  render();
+  updatePulse();
+};
+
+document.getElementById('search').oninput = (e) => { QRY = e.target.value; render(); };
+document.getElementById('mebtn').onclick = () => {
+  MYONLY = !MYONLY;
+  document.getElementById('mebtn').classList.toggle('on', MYONLY);
+  render();
+};
+
+document.querySelectorAll('.ftab').forEach(btn => {
+    btn.onclick = () => {
+        document.querySelectorAll('.ftab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        QUAL_FILTER = btn.dataset.q;
+        render();
+    };
+});
+
+setInterval(tick, 1000);
+init();
+</script>
+</body>
+</html>
 <footer>
   <div class="wrap">ExamNova &nbsp;&middot;&nbsp; 2026 Academic Pulse</div>
 </footer>
