@@ -3,94 +3,96 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ExamNova — IAL Exam Tracker</title>
+  <title>ExamNova — IAL Tracker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
   <style>
-    :root{--bg:#0e0f1a;--bg3:#1c1d2f;--bdr:#2a2c45;--gold:#c9a84c;--gdim:#7a6230;--teal:#4a9b8f;--red:#c94c6a;--cream:#e8dfc8;--muted:#7a7d99;--white:#f0ecdf;--fh:'Cormorant Garamond',Georgia,serif;--fm:'JetBrains Mono',monospace;--fb:'DM Sans',sans-serif;--r:10px;--shadow:0 4px 32px rgba(0,0,0,.45);--ease:.22s cubic-bezier(.4,0,.2,1)}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth}
-    body{background:var(--bg);color:var(--cream);font-family:var(--fb);font-size:14px;line-height:1.6;min-height:100vh;overflow-x:hidden}
-    body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background-image:linear-gradient(rgba(201,168,76,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(201,168,76,.04) 1px,transparent 1px);background-size:60px 60px}
-    .wrap{position:relative;z-index:1;max-width:1280px;margin:0 auto;padding:0 24px}
-    header{position:sticky;top:0;z-index:100;background:rgba(14,15,26,.92);backdrop-filter:blur(18px);border-bottom:1px solid var(--bdr)}
-    .hi{display:flex;align-items:center;gap:12px;padding:13px 24px;max-width:1280px;margin:0 auto}
-    .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
-    .blogo{width:34px;height:34px;border-radius:8px;flex-shrink:0;background:linear-gradient(135deg,var(--gold),var(--teal));display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-size:18px;font-weight:600;color:#0e0f1a}
-    .bname{font-family:var(--fh);font-size:21px;font-weight:600;color:var(--white)}
+    :root{--bg:#0e0f1a;--bg3:#161726;--bdr:#26283d;--gold:#c9a84c;--teal:#4a9b8f;--muted:#7a7d99;--white:#f0ecdf;--fh:'Cormorant Garamond',serif;--fm:'JetBrains Mono',monospace;--fb:'DM Sans',sans-serif;--shadow:0 10px 40px rgba(0,0,0,0.5);--ease:cubic-bezier(0.4, 0, 0.2, 1)}
+    
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--white);font-family:var(--fb);font-size:14px;min-height:100vh;overflow-x:hidden}
+    
+    /* Background grid for that 'Pro' feel */
+    body::before{content:'';position:fixed;inset:0;z-index:0;background-image:linear-gradient(rgba(201,168,76,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(201,168,76,.03) 1px,transparent 1px);background-size:50px 50px;pointer-events:none}
+
+    .wrap{position:relative;z-index:1;max-width:1100px;margin:0 auto;padding:0 24px}
+    
+    header{padding:24px 0;border-bottom:1px solid var(--bdr);background:rgba(14,15,26,0.8);backdrop-filter:blur(10px);position:sticky;top:0;z-index:100}
+    .hi{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+    .blogo{width:36px;height:36px;background:linear-gradient(135deg,var(--gold),var(--teal));border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-weight:700;color:#000}
+    .bname{font-family:var(--fh);font-size:22px;font-weight:600}
     .bname span{color:var(--gold)}
-    .hsp{flex:1}
-    .sinfo{font-family:var(--fm);font-size:10px;color:var(--muted)}
-    .hero{padding:48px 0 32px}
-    .hsup{font-family:var(--fm);font-size:10px;letter-spacing:.14em;color:var(--gold);text-transform:uppercase;margin-bottom:8px}
-    .hero h1{font-family:var(--fh);font-size:clamp(30px,5vw,54px);font-weight:300;color:var(--white);line-height:1.15;margin-bottom:6px}
-    .hero h1 em{font-style:italic;color:var(--gold)}
-    .hdesc{color:var(--muted);font-size:13px;max-width:460px}
-    .nstrip{margin-bottom:32px;padding:20px 26px;background:linear-gradient(135deg,rgba(201,168,76,0.08),rgba(74,155,143,0.06));border:1px solid var(--bdr);border-radius:var(--r);display:flex;align-items:center;gap:28px;flex-wrap:wrap;box-shadow:var(--shadow)}
-    .nlbl{font-family:var(--fm);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
-    .ntitle{font-family:var(--fh);font-size:20px;color:var(--white);font-weight:500}
-    .nsub{font-family:var(--fm);font-size:11px;color:var(--teal);margin-top:3px}
-    .cdg{display:flex;gap:14px;margin-left:auto}
-    .cdb{text-align:center;min-width:42px}
-    .cdn{font-family:var(--fm);font-size:30px;font-weight:500;color:var(--gold);line-height:1}
-    .cdl2{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:3px}
-    .sr{display:flex;gap:10px;margin-bottom:22px}
-    .si2{flex:1;padding:12px 18px;background:var(--bg3);border:1px solid var(--bdr);border-radius:var(--r);color:var(--cream);font-family:var(--fb);font-size:14px;outline:none;transition:var(--ease)}
-    .si2::placeholder{color:var(--muted)}.si2:focus{border-color:var(--gold)}
-    .meb{padding:9px 16px;border-radius:var(--r);white-space:nowrap;border:1px solid var(--bdr);background:transparent;color:var(--muted);font-size:12px;cursor:pointer;transition:var(--ease)}
-    .meb.on{border-color:var(--teal);color:var(--teal);background:rgba(74,155,143,.08)}
-    .mb{margin-bottom:42px}
-    .mhd{display:flex;align-items:baseline;gap:14px;padding-bottom:11px;margin-bottom:18px;border-bottom:1px solid var(--bdr)}
-    .mn{font-family:var(--fh);font-size:27px;font-weight:300;color:var(--white)}
-    .my2{font-family:var(--fm);font-size:11px;color:var(--muted)}
-    .eg{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
-    .ec{background:var(--bg3);border:1px solid var(--bdr);border-radius:var(--r);padding:16px;transition:var(--ease);position:relative;overflow:hidden}
-    .ec::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px}
-    .ec.ss::before{background:var(--gold)}.ec.so::before{background:var(--teal)}.ec.sj::before{background:#9b7fcd}.ec.sk::before{background:var(--muted)}
-    .ec:hover{border-color:var(--gold);transform:translateY(-2px);box-shadow:var(--shadow)}
-    .ec.mine{border-color:var(--teal)!important}
-    .ct{display:flex;gap:11px;margin-bottom:9px}
-    .cd2{display:flex;flex-direction:column;align-items:center;min-width:44px;padding:6px;background:rgba(255,255,255,.04);border-radius:6px;flex-shrink:0}
-    .cday{font-family:var(--fm);font-size:20px;line-height:1;color:var(--white)}
-    .cmon{font-family:var(--fm);font-size:9px;text-transform:uppercase;color:var(--muted)}
-    .cm{flex:1;min-width:0}
-    .cser{font-family:var(--fm);font-size:9px;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
-    .ctit{font-size:13px;color:var(--cream);font-weight:500;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-    .ccod{font-family:var(--fm);font-size:10px;color:var(--muted);margin-top:4px}
-    .cf{display:flex;align-items:center;justify-content:space-between;margin-top:12px;padding-top:12px;border-top:1px solid rgba(255,255,255,0.05)}
-    .cdl{font-family:var(--fm);font-size:10px;padding:2px 8px;border-radius:4px;background:rgba(255,255,255,.04)}
-    .cdl.past{color:var(--muted)}.cdl.today{color:var(--gold)}.cdl.future{color:var(--teal)}
-    .cbdg{font-family:var(--fm);font-size:9px;padding:2px 6px;border-radius:3px;margin-left:6px}
-    .am{background:rgba(201,168,76,.14);color:var(--gold)}.pm{background:rgba(74,155,143,.14);color:var(--teal)}
-    .star{background:none;border:none;cursor:pointer;font-size:18px;color:var(--muted);transition:var(--ease)}
+
+    /* Countdown Strip */
+    .nstrip{margin:40px 0;padding:30px;background:var(--bg3);border:1px solid var(--bdr);border-radius:16px;display:flex;align-items:center;gap:30px;flex-wrap:wrap;box-shadow:var(--shadow)}
+    .ninfo{flex:1;min-width:280px}
+    .nlbl{font-family:var(--fm);font-size:10px;text-transform:uppercase;letter-spacing:2px;color:var(--gold);margin-bottom:8px}
+    .ntitle{font-family:var(--fh);font-size:26px;line-height:1.2;margin-bottom:4px}
+    .nsub{font-family:var(--fm);font-size:12px;color:var(--teal)}
+    
+    .cdg{display:flex;gap:20px}
+    .cdb{text-align:center}
+    .cdn{font-family:var(--fm);font-size:32px;font-weight:500;color:var(--white)}
+    .cdl2{font-size:9px;text-transform:uppercase;color:var(--muted);margin-top:2px}
+
+    /* Controls */
+    .controls{display:flex;gap:12px;margin-bottom:30px}
+    .si2{flex:1;background:var(--bg3);border:1px solid var(--bdr);padding:14px 20px;border-radius:12px;color:var(--white);font-size:15px;outline:none;transition:0.2s}
+    .si2:focus{border-color:var(--gold)}
+    .meb{background:var(--bg3);border:1px solid var(--bdr);padding:0 24px;border-radius:12px;color:var(--muted);cursor:pointer;font-weight:600;transition:0.2s}
+    .meb.on{border-color:var(--teal);color:var(--teal);background:rgba(74,155,143,0.1)}
+
+    /* Grid & Cards */
+    .eg{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;margin-bottom:60px}
+    .ec{background:var(--bg3);border:1px solid var(--bdr);border-radius:14px;padding:20px;position:relative;transition:0.3s var(--ease)}
+    .ec:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:var(--shadow)}
+    .ec.mine{border-left:4px solid var(--teal)}
+
+    .ct{display:flex;justify-content:space-between;margin-bottom:15px}
+    .cser{font-family:var(--fm);font-size:9px;color:var(--gold);text-transform:uppercase}
+    .ccod{font-family:var(--fm);font-size:11px;color:var(--muted)}
+    
+    .ctit{font-size:17px;font-weight:500;margin-bottom:20px;line-height:1.4;height:48px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    
+    .cf{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--bdr);padding-top:15px}
+    .cdate{font-weight:600;font-size:14px}
+    .cb{display:flex;align-items:center;gap:8px}
+    .cbdg{font-family:var(--fm);font-size:10px;padding:2px 6px;border-radius:4px;background:rgba(255,255,255,0.05)}
+    .am{color:var(--gold)}.pm{color:var(--teal)}
+    
+    .star{background:none;border:none;color:var(--muted);font-size:22px;cursor:pointer;transition:0.2s}
     .star.on{color:var(--gold)}
-    footer{margin-top:80px;padding:32px 0;border-top:1px solid var(--bdr);text-align:center;font-family:var(--fm);font-size:11px;color:var(--muted)}
+    .star:hover{transform:scale(1.2)}
+
+    footer{padding:40px 0;border-top:1px solid var(--bdr);text-align:center;font-size:12px;color:var(--muted)}
+    
+    @media (max-width: 600px) {
+      .nstrip{padding:20px;gap:20px}
+      .cdg{gap:10px}
+      .cdn{font-size:24px}
+    }
   </style>
 </head>
 <body>
+
 <header>
-  <div class="hi">
+  <div class="wrap hi">
     <a class="brand" href="#">
       <div class="blogo">N</div>
       <span class="bname">Exam<span>Nova</span></span>
     </a>
-    <div class="hsp"></div>
     <span class="sinfo" id="sinfo">Syncing...</span>
   </div>
 </header>
-<main class="wrap">
-  <section class="hero">
-    <p class="hsup">Personal Academic Pulse &middot; Pearson IAL</p>
-    <h1>Your <em>exam schedule</em>,<br>streamlined.</h1>
-    <p class="hdesc">High-performance tracking for your IAL papers. Star your units to activate the live countdown pulse.</p>
-  </section>
 
+<main class="wrap">
   <div class="nstrip">
-    <div>
+    <div class="ninfo">
       <div class="nlbl" id="nstatus">Next Target</div>
-      <div class="ntitle" id="ntitle">Loading...</div>
-      <div class="nsub" id="nsub">Please wait while we sync data.</div>
+      <div class="ntitle" id="ntitle">Waiting for Input...</div>
+      <div class="nsub" id="nsub">Star an exam below to begin.</div>
     </div>
     <div class="cdg">
       <div class="cdb"><div class="cdn" id="cdd">00</div><div class="cdl2">Days</div></div>
@@ -100,549 +102,146 @@
     </div>
   </div>
 
-  <div class="sr">
-    <input class="si2" id="search" type="text" placeholder="Search subject title, code, or month..." autofocus />
-    <button class="meb" id="mebtn">&starf; My Schedule</button>
+  <div class="controls">
+    <input class="si2" id="search" type="text" placeholder="Search subject or code..." autofocus />
+    <button class="meb" id="mebtn">★ My Schedule</button>
   </div>
 
-  <div id="cal"></div>
+  <div id="cal" class="eg"></div>
 </main>
 
 <footer>
-  <div class="wrap">ExamNova &nbsp;&middot;&nbsp; 2026 Academic Series</div>
+  <div class="wrap">ExamNova &nbsp;&middot;&nbsp; IAL 2026-2027</div>
 </footer>
 
 <script>
 'use strict';
 let ALL = [];
-let MY = new Set();
+let MY = new Set(JSON.parse(localStorage.getItem('Nova_Starred') || '[]'));
 let MYONLY = false;
 let QRY = '';
 let CDT = null;
 
-const FUNNY = [
-  "Your schedule is emptier than my soul on a Monday.",
-  "No exams chosen? You either graduated or you're in denial.",
-  "A blank schedule is the ultimate academic flex.",
-  "Waiting for you to pick an exam is like waiting for a result email.",
-  "Your 'My Exams' list is currently a desert. Add some spice (exams)."
+const MESSAGES = [
+  "Your schedule is a blank canvas of peace.",
+  "No exams? You're either a graduate or a magician.",
+  "DENIAL is not just a river in Egypt. Pick an exam.",
+  "Academic chill mode: Activated. Choose a paper to see a timer.",
+  "Your 'My Schedule' is currently a desert. Star something!"
 ];
-const SELECTED_FUNNY = FUNNY[Math.floor(Math.random() * FUNNY.length)];
+// Choose one message per session
+const SELECTED_MSG = MESSAGES[Math.floor(Math.random() * MESSAGES.length)];
 
-function loadMy() {
+async function init() {
   try {
-    const r = JSON.parse(localStorage.getItem('ExamNova_my'));
-    if (r) MY = new Set(r);
-  } catch(e) {}
-}
-
-function saveMy() {
-  localStorage.setItem('ExamNova_my', JSON.stringify([...MY]));
-}
-
-async function loadData() {
-  try {
-    const response = await fetch('timetables.json');
-    if (!response.ok) throw new Error('JSON not found');
-    const data = await response.json();
+    const resp = await fetch('timetables.json');
+    const data = await resp.json();
     
-    // Map JSON to the robust structure
     ALL = data.map(e => ({
       ...e,
-      // Robust series color mapping
-      sClass: e.series.toLowerCase().includes('summer') ? 'ss' : 
-              e.series.toLowerCase().includes('oct') ? 'so' : 
-              e.series.toLowerCase().includes('jan') ? 'sj' : 'sk',
-      date: new Date(e.dateStr + (e.sess === 'PM' ? 'T13:30:00' : 'T09:00:00'))
-    }));
+      jsDate: new Date(e.dateStr + (e.sess === 'PM' ? 'T13:30:00' : 'T09:00:00')),
+      // Simple logic for series tags to avoid text overflow
+      tag: e.series.includes('Summer') ? 'SUMMER' : e.series.includes('Oct') ? 'OCT' : 'JAN'
+    })).sort((a,b) => a.jsDate - b.jsDate);
 
-    ALL.sort((a,b) => a.date - b.date);
-    document.getElementById('sinfo').textContent = 'Live • ' + ALL.length + ' Units';
-    updateCD();
+    document.getElementById('sinfo').textContent = ALL.length + ' Units Loaded';
+    updatePulse();
     render();
-  } catch (err) {
-    document.getElementById('cal').innerHTML = `<div style="text-align:center; padding:50px; color:var(--red);">Ensure 'timetables.json' is in the root directory.</div>`;
+  } catch (e) {
+    document.getElementById('cal').innerHTML = "JSON Data Missing.";
   }
 }
 
-function updateCD() {
+function updatePulse() {
   const now = new Date();
-  
-  // Logic: Priority to STARRED exams. If none starred, show funny message.
-  const starredPool = ALL.filter(e => MY.has(e.id) && e.date > now);
-  
+  const next = ALL.find(e => MY.has(e.id) && e.jsDate > now);
+  const titleEl = document.getElementById('ntitle');
+  const subEl = document.getElementById('nsub');
+  const statEl = document.getElementById('nstatus');
+
   if (MY.size === 0) {
-    document.getElementById('nstatus').textContent = "Status: Chilling";
-    document.getElementById('ntitle').textContent = SELECTED_FUNNY;
-    document.getElementById('nsub').textContent = "↑ Star an exam below to start the countdown pulse.";
+    statEl.textContent = "Status: Chilling";
+    titleEl.textContent = SELECTED_MSG;
+    subEl.textContent = "↑ Click the star on any unit below to track it.";
     CDT = null;
     return;
   }
 
-  if (starredPool.length === 0) {
-    document.getElementById('nstatus').textContent = "Status: Completed";
-    document.getElementById('ntitle').textContent = "All chosen exams finished!";
-    document.getElementById('nsub').textContent = "You're either done or need to add more units.";
+  if (!next) {
+    statEl.textContent = "Status: Finished";
+    titleEl.textContent = "All clear! No upcoming papers.";
+    subEl.textContent = "Time to touch grass.";
     CDT = null;
     return;
   }
 
-  const next = starredPool[0];
-  document.getElementById('nstatus').textContent = "Countdown to " + next.code;
-  document.getElementById('ntitle').textContent = next.title;
-  document.getElementById('nsub').textContent = next.date.toLocaleDateString('en-GB', { weekday: 'long', day:'numeric', month:'long' }) + " (" + next.sess + ")";
-  CDT = next.date;
+  statEl.textContent = "Countdown to " + next.code;
+  titleEl.textContent = next.title;
+  subEl.textContent = next.jsDate.toLocaleDateString('en-GB', { weekday: 'long', day:'numeric', month:'long' }) + " (" + next.sess + ")";
+  CDT = next.jsDate;
 }
 
-function tickCD() {
+function tick() {
   if (!CDT) {
     ['cdd','cdh','cdm','cds'].forEach(id => document.getElementById(id).textContent = '00');
     return;
   }
-  const d = CDT - Date.now();
-  const p = n => String(Math.max(0, n)).padStart(2, '0');
-  if (d <= 0) {
-     updateCD(); // Refresh if exam starts
-     return;
-  }
-  document.getElementById('cdd').textContent = p(Math.floor(d/86400000));
-  document.getElementById('cdh').textContent = p(Math.floor((d%86400000)/3600000));
-  document.getElementById('cdm').textContent = p(Math.floor((d%3600000)/60000));
-  document.getElementById('cds').textContent = p(Math.floor((d%60000)/1000));
+  const diff = CDT - Date.now();
+  if (diff <= 0) { updatePulse(); return; }
+  
+  const d = Math.floor(diff / 86400000);
+  const h = Math.floor((diff % 86400000) / 3600000);
+  const m = Math.floor((diff % 3600000) / 60000);
+  const s = Math.floor((diff % 60000) / 1000);
+  
+  document.getElementById('cdd').textContent = String(d).padStart(2, '0');
+  document.getElementById('cdh').textContent = String(h).padStart(2, '0');
+  document.getElementById('cdm').textContent = String(m).padStart(2, '0');
+  document.getElementById('cds').textContent = String(s).padStart(2, '0');
 }
 
 function render() {
   const cal = document.getElementById('cal');
   const filtered = ALL.filter(e => {
     if (MYONLY && !MY.has(e.id)) return false;
-    const sTerm = QRY.toLowerCase();
-    if (QRY && !(`${e.title} ${e.code} ${e.series}`.toLowerCase().includes(sTerm))) return false;
-    return true;
+    const term = QRY.toLowerCase();
+    return e.title.toLowerCase().includes(term) || e.code.toLowerCase().includes(term);
   });
 
-  if (!filtered.length) {
-    cal.innerHTML = `<div style="text-align:center; padding:100px 0; color:var(--muted); font-family:var(--fm);">No results found for "${QRY}"</div>`;
-    return;
-  }
-
-  const groups = {};
-  filtered.forEach(e => {
-    const k = `${e.date.getFullYear()}-${e.date.getMonth()}`;
-    if (!groups[k]) groups[k] = [];
-    groups[k].push(e);
-  });
-
-  const MNAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-
-  cal.innerHTML = Object.keys(groups).sort().map(k => {
-    const [yr, mo] = k.split('-');
-    const list = groups[k];
-    return `
-      <div class="mb">
-        <div class="mhd"><span class="mn">${MNAMES[mo]}</span><span class="my2">${yr}</span></div>
-        <div class="eg">${list.map(e => card(e)).join('')}</div>
-      </div>`;
-  }).join('');
-
-  document.querySelectorAll('.star').forEach(btn => {
-    btn.onclick = () => {
-      const id = btn.dataset.id;
-      MY.has(id) ? MY.delete(id) : MY.add(id);
-      saveMy();
-      render();
-      updateCD();
-    };
-  });
-}
-
-function card(e) {
-  const starred = MY.has(e.id);
-  const diff = Math.ceil((e.date - new Date()) / 86400000);
-  const dc = diff < 0 ? 'past' : diff === 0 ? 'today' : 'future';
-  const dt = diff < 0 ? Math.abs(diff)+'d ago' : diff === 0 ? 'TODAY' : diff+'d left';
-
-  return `
-    <div class="ec ${e.sClass}${starred ? ' mine' : ''}">
+  cal.innerHTML = filtered.map(e => `
+    <div class="ec ${MY.has(e.id) ? 'mine' : ''}">
       <div class="ct">
-        <div class="cd2">
-          <span class="cday">${e.date.getDate()}</span>
-          <span class="cmon">${MNAMES[e.date.getMonth()].slice(0,3).toUpperCase()}</span>
-        </div>
-        <div class="cm">
-          <div class="cser">${e.series}</div>
-          <div class="ctit">${e.title}</div>
-          <div class="ccod">${e.code}</div>
-        </div>
+        <span class="cser">${e.tag}</span>
+        <span class="ccod">${e.code}</span>
       </div>
+      <div class="ctit">${e.title}</div>
       <div class="cf">
-        <div>
-          <span class="cdl ${dc}">${dt}</span>
-          ${e.sess ? `<span class="cbdg ${e.sess.toLowerCase()}">${e.sess}</span>` : ''}
+        <div class="cb">
+          <span class="cdate">${e.jsDate.toLocaleDateString('en-GB', {day:'2-digit', month:'short'})}</span>
+          <span class="cbdg ${e.sess.toLowerCase()}">${e.sess}</span>
         </div>
-        <button class="star ${starred ? 'on' : ''}" data-id="${e.id}">&starf;</button>
+        <button class="star ${MY.has(e.id) ? 'on' : ''}" onclick="toggleStar('${e.id}')">★</button>
       </div>
-    </div>`;
+    </div>
+  `).join('');
 }
 
-document.getElementById('search').oninput = (e) => { QRY = e.target.value; render(); };
-document.getElementById('mebtn').onclick = () => { 
-  MYONLY = !MYONLY; 
-  document.getElementById('mebtn').classList.toggle('on', MYONLY); 
-  render(); 
+window.toggleStar = (id) => {
+  MY.has(id) ? MY.delete(id) : MY.add(id);
+  localStorage.setItem('Nova_Starred', JSON.stringify([...MY]));
+  render();
+  updatePulse();
 };
 
-setInterval(tickCD, 1000);
-loadMy();
-loadData();
-</script>
-</body>
-</html>
-        .funny-msg h2 { font-size: 24px; color: var(--text-dim); margin-bottom: 10px; }
-        .funny-msg p { color: var(--accent); font-weight: 500; text-decoration: underline; cursor: pointer; }
-
-        @media (max-width: 600px) {
-            .cd-timer { gap: 10px; }
-            .cd-val { font-size: 30px; }
-            .cd-unit { min-width: 50px; }
-        }
-    </style>
-</head>
-<body>
-
-<div class="container">
-    <header>
-        <a href="#" class="nav-brand">
-            <div class="logo-sq"></div>
-            <h1 class="brand-name">Exam<span>Nova</span></h1>
-        </a>
-        <div id="countdown-root"></div>
-    </header>
-
-    <div class="controls">
-        <div class="search-wrapper">
-            <input type="text" id="search" class="search-input" placeholder="Search by subject code or title (e.g. WMA11)...">
-        </div>
-        <button id="toggle-starred" class="btn-toggle">
-            <span>★</span> My Schedule
-        </button>
-    </div>
-
-    <div id="exam-list" class="exam-grid"></div>
-</div>
-
-<script>
-    'use strict';
-
-    let ALL_EXAMS = [];
-    let STARRED_IDS = new Set(JSON.parse(localStorage.getItem('Nova_Starred') || '[]'));
-    let SHOW_STARRED_ONLY = false;
-    let TICK_INTERVAL = null;
-
-    const FUNNY_MESSAGES = [
-        "Your schedule is emptier than my fridge on a Monday morning.",
-        "No exams? Either you're a genius or you're forgetting something important.",
-        "Your 'My Schedule' is currently a blank canvas of academic peace.",
-        "Plot twist: You actually have to pick exams to see a countdown.",
-        "Living life on the edge? Go ahead, star an exam... I dare you."
-    ];
-
-    // Fetch Data
-    async function init() {
-        try {
-            const resp = await fetch('timetables.json');
-            if (!resp.ok) throw new Error("No JSON found");
-            const data = await resp.json();
-            
-            // Format & Sort
-            ALL_EXAMS = data.map(ex => ({
-                ...ex,
-                jsDate: new Date(ex.dateStr + (ex.sess === 'PM' ? 'T13:30:00' : 'T09:00:00'))
-            })).sort((a, b) => a.jsDate - b.jsDate);
-
-            render();
-            startCountdown();
-        } catch (e) {
-            document.getElementById('exam-list').innerHTML = `<h2>Please ensure 'timetables.json' exists.</h2>`;
-        }
-    }
-
-    function toggleStar(id) {
-        if (STARRED_IDS.has(id)) STARRED_IDS.delete(id);
-        else STARRED_IDS.add(id);
-        
-        localStorage.setItem('Nova_Starred', JSON.stringify([...STARRED_IDS]));
-        render();
-        startCountdown();
-    }
-
-    function startCountdown() {
-        if (TICK_INTERVAL) clearInterval(TICK_INTERVAL);
-        
-        const update = () => {
-            const now = new Date();
-            // Find next exam among starred
-            const next = ALL_EXAMS.find(ex => STARRED_IDS.has(ex.id) && ex.jsDate > now);
-            const root = document.getElementById('countdown-root');
-
-            if (!STARRED_IDS.size) {
-                const msg = FUNNY_MESSAGES[Math.floor(Math.random() * FUNNY_MESSAGES.length)];
-                root.innerHTML = `
-                    <div class="countdown-card">
-                        <div class="cd-label">Status: Chilling</div>
-                        <div class="cd-title">${msg}</div>
-                        <p style="color:var(--accent); cursor:pointer;" onclick="document.getElementById('search').focus()">👇 Hint: Use search and hit the star to begin.</p>
-                    </div>`;
-                return;
-            }
-
-            if (!next) {
-                root.innerHTML = `<div class="countdown-card"><div class="cd-title">All exams finished! Time to touch grass. 🌱</div></div>`;
-                return;
-            }
-
-            const diff = next.jsDate - now;
-            const d = Math.floor(diff / 86400000);
-            const h = Math.floor((diff % 86400000) / 3600000);
-            const m = Math.floor((diff % 3600000) / 60000);
-            const s = Math.floor((diff % 60000) / 1000);
-
-            root.innerHTML = `
-                <div class="countdown-card">
-                    <div class="cd-label">Next Deadline: ${next.code}</div>
-                    <div class="cd-title">${next.title}</div>
-                    <div class="cd-timer">
-                        <div class="cd-unit"><span class="cd-val">${d}</span><span class="cd-lbl">Days</span></div>
-                        <div class="cd-unit"><span class="cd-val">${h}</span><span class="cd-lbl">Hrs</span></div>
-                        <div class="cd-unit"><span class="cd-val">${m}</span><span class="cd-lbl">Min</span></div>
-                        <div class="cd-unit"><span class="cd-val">${s}</span><span class="cd-lbl">Sec</span></div>
-                    </div>
-                </div>`;
-        };
-
-        update();
-        TICK_INTERVAL = setInterval(update, 1000);
-    }
-
-    function render() {
-        const query = document.getElementById('search').value.toLowerCase();
-        const container = document.getElementById('exam-list');
-        
-        const filtered = ALL_EXAMS.filter(ex => {
-            const matchSearch = ex.title.toLowerCase().includes(query) || ex.code.toLowerCase().includes(query);
-            const matchStarred = SHOW_STARRED_ONLY ? STARRED_IDS.has(ex.id) : true;
-            return matchSearch && matchStarred;
-        });
-
-        container.innerHTML = filtered.map(ex => `
-            <div class="exam-card ${STARRED_IDS.has(ex.id) ? 'starred' : ''}">
-                <div class="card-top">
-                    <span class="series-tag">${ex.series}</span>
-                    <span class="unit-code">${ex.code}</span>
-                </div>
-                <div class="unit-title">${ex.title}</div>
-                <div class="card-footer">
-                    <div class="exam-date">
-                        ${ex.jsDate.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })}
-                        <span class="sess-badge">${ex.sess}</span>
-                    </div>
-                    <button class="star-btn ${STARRED_IDS.has(ex.id) ? 'active' : ''}" onclick="toggleStar('${ex.id}')">
-                        ${STARRED_IDS.has(ex.id) ? '★' : '☆'}
-                    </button>
-                </div>
-            </div>
-        `).join('');
-    }
-
-    // Events
-    document.getElementById('search').addEventListener('input', render);
-    document.getElementById('toggle-starred').addEventListener('click', (e) => {
-        SHOW_STARRED_ONLY = !SHOW_STARRED_ONLY;
-        e.target.closest('button').classList.toggle('active', SHOW_STARRED_ONLY);
-        render();
-    });
-
-    init();
-</script>
-
-</body>
-</html>
-  </div>
-
-  <div class="sr">
-    <input class="si2" id="search" type="text" placeholder="Search subject, code, or series..." />
-    <button class="meb" id="mebtn">&starf; My Exams</button>
-  </div>
-
-  <div id="cal"></div>
-</main>
-
-<footer>
-  <div class="wrap">
-    ExamNova &nbsp;&middot;&nbsp; Local JSON Backend &nbsp;&middot;&nbsp; GitHub Pages Ready
-  </div>
-</footer>
-
-<script>
-'use strict';
-let ALL = [];
-let MY = new Set();
-let MYONLY = false;
-let QRY = '';
-let CDT = null;
-
-const MN = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-
-// Load Starred Exams from LocalStorage
-function loadMy() {
-  try {
-    const r = JSON.parse(localStorage.getItem('ExamNova_my'));
-    if (r) MY = new Set(r);
-  } catch(e) {}
-}
-
-function saveMy() {
-  localStorage.setItem('ExamNova_my', JSON.stringify([...MY]));
-}
-
-// Fetch the local JSON file
-async function loadData() {
-  try {
-    const response = await fetch('timetables.json');
-    if (!response.ok) throw new Error('JSON not found');
-    const data = await response.json();
-    
-    // Map JSON to ExamNova structure
-    ALL = data.map((e, index) => ({
-      id: `exam_${index}`,
-      series: e.series.toLowerCase().includes('summer') ? 'summer' : 
-              e.series.toLowerCase().includes('oct') ? 'oct' : 
-              e.series.toLowerCase().includes('jan') ? 'jan' : 'keydate',
-      label: e.series,
-      date: new Date(e.dateStr + 'T12:00:00'),
-      dateStr: e.dateStr,
-      subj: e.title,
-      code: e.code,
-      title: e.title,
-      sess: e.sess,
-      type: 'exam'
-    }));
-
-    ALL.sort((a,b) => a.date - b.date);
-    document.getElementById('sinfo').textContent = 'Loaded ' + ALL.length + ' entries';
-    updateCD();
-    render();
-  } catch (err) {
-    document.getElementById('cal').innerHTML = `<div style="text-align:center; padding:50px; color:var(--red);">Error: ${err.message}. Ensure timetables.json is uploaded.</div>`;
-  }
-}
-
-function updateCD() {
-  const now = new Date();
-  const pool = ALL.filter(e => e.date > now && (!MYONLY || MY.has(e.id)));
-  if (!pool.length) {
-    document.getElementById('ntitle').textContent = 'No upcoming exams';
-    CDT = null;
-    return;
-  }
-  const nx = pool[0];
-  document.getElementById('ntitle').textContent = nx.title;
-  document.getElementById('nsub').textContent = nx.date.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
-  
-  const t = new Date(nx.date);
-  t.setHours(nx.sess === 'PM' ? 13 : 9, 0, 0, 0);
-  CDT = t;
-}
-
-function tickCD() {
-  if (!CDT) return;
-  const d = CDT - Date.now();
-  const p = n => String(Math.max(0, n)).padStart(2, '0');
-  if (d <= 0) return;
-  document.getElementById('cdd').textContent = p(Math.floor(d/86400000));
-  document.getElementById('cdh').textContent = p(Math.floor((d%86400000)/3600000));
-  document.getElementById('cdm').textContent = p(Math.floor((d%3600000)/60000));
-  document.getElementById('cds').textContent = p(Math.floor((d%60000)/1000));
-}
-
-function render() {
-  const cal = document.getElementById('cal');
-  const filtered = ALL.filter(e => {
-    if (MYONLY && !MY.has(e.id)) return false;
-    if (QRY && !(`${e.title} ${e.code} ${e.label}`.toLowerCase().includes(QRY.toLowerCase()))) return false;
-    return true;
-  });
-
-  if (!filtered.length) {
-    cal.innerHTML = '<div style="text-align:center; padding:50px; color:var(--muted);">No matching exams found.</div>';
-    return;
-  }
-
-  const groups = {};
-  filtered.forEach(e => {
-    const k = `${e.date.getFullYear()}-${e.date.getMonth()}`;
-    if (!groups[k]) groups[k] = [];
-    groups[k].push(e);
-  });
-
-  cal.innerHTML = Object.keys(groups).sort().map(k => {
-    const [yr, mo] = k.split('-');
-    const list = groups[k];
-    return `
-      <div class="mb">
-        <div class="mhd"><span class="mn">${MN[mo]}</span><span class="my2">${yr}</span></div>
-        <div class="eg">${list.map(e => card(e)).join('')}</div>
-      </div>`;
-  }).join('');
-
-  // Attach star listeners
-  document.querySelectorAll('.star').forEach(btn => {
-    btn.onclick = (ev) => {
-      const id = btn.dataset.id;
-      MY.has(id) ? MY.delete(id) : MY.add(id);
-      saveMy();
-      render();
-      updateCD();
-    };
-  });
-}
-
-function card(e) {
-  const starred = MY.has(e.id);
-  const diff = Math.round((e.date - new Date().setHours(0,0,0,0)) / 86400000);
-  const dc = diff < 0 ? 'past' : diff <= 7 ? 'soon' : 'future';
-  const dt = diff < 0 ? Math.abs(diff)+'d ago' : diff === 0 ? 'Today' : diff+'d';
-
-  return `
-    <div class="ec ${e.series}${starred ? ' mine' : ''}">
-      <div class="ct">
-        <div class="cd2">
-          <span class="cday">${e.date.getDate()}</span>
-          <span class="cmon">${MN[e.date.getMonth()].slice(0,3).toUpperCase()}</span>
-          <span class="cdow">${e.date.toLocaleDateString('en-GB',{weekday:'short'}).toUpperCase()}</span>
-        </div>
-        <div class="cm">
-          <div class="cser">${e.label}</div>
-          <div class="ctit">${e.title}</div>
-          <div class="ccod">${e.code}</div>
-        </div>
-      </div>
-      <div class="cf">
-        <div>
-          <span class="cdl ${dc}">${dt}</span>
-          ${e.sess ? `<span class="cbdg ${e.sess.toLowerCase()}">${e.sess}</span>` : ''}
-        </div>
-        <button class="star ${starred ? 'on' : ''}" data-id="${e.id}">&starf;</button>
-      </div>
-    </div>`;
-}
-
 document.getElementById('search').oninput = (e) => { QRY = e.target.value; render(); };
-document.getElementById('mebtn').onclick = () => { MYONLY = !MYONLY; document.getElementById('mebtn').classList.toggle('on'); render(); updateCD(); };
+document.getElementById('mebtn').onclick = () => {
+  MYONLY = !MYONLY;
+  document.getElementById('mebtn').classList.toggle('on', MYONLY);
+  render();
+};
 
-setInterval(tickCD, 1000);
-loadMy();
-loadData();
+setInterval(tick, 1000);
+init();
 </script>
 </body>
 </html>
-
