@@ -1,0 +1,6242 @@
+[
+  {
+    "id": "int_2026-05-06_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-06",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-01_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-01",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-05_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-05",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-05_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-05",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-28_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-28",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-04_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-04",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-06_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-06",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-29_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-29",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-09_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-09",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-06_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-06",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-21_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-21",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-29_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-29",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-07_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-07",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-13_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-13",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-21_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-21",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-04_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-04",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-19_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-19",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-01_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-01",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-10_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-10",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-29_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-29",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-05_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-05",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-21_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-21",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-01_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-01",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-10_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-10",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-04_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-04",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-18_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-18",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-03_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-03",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-19_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-19",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-22_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-22",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-07_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-07",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-18_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-18",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-28_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-28",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-09_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-09",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-09_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-09",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-07_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-07",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-03_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-03",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-13_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-13",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-18_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-18",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-01_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-01",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-05_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-05",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-10_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-10",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-05_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-05",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-22_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-22",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-13_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-13",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-03_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-03",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-19_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-19",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-05_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-05",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-22_pears",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-22",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-05_wac11",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-05",
+    "code": "WAC11 01",
+    "title": "Accounting",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-05_wps01",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-05",
+    "code": "WPS01 01",
+    "title": "Psychology",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-05_wbi11",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-05",
+    "code": "WBI11 01",
+    "title": "Biology",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-06_waa01",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-06",
+    "code": "WAA01 01",
+    "title": "Arabic",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-06_wbs11",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-06",
+    "code": "WBS11 01",
+    "title": "Business",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-06_wch11",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-06",
+    "code": "WCH11 01",
+    "title": "Chemistry",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-07_wme01",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-07",
+    "code": "WME01 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-07_wec11",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-07",
+    "code": "WEC11 01",
+    "title": "Economics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-07_wit11",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-07",
+    "code": "WIT11 01",
+    "title": "Information Technology (IT)",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-08_wet01",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-08",
+    "code": "WET01 01",
+    "title": "English Literature",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-08_wma11",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-08",
+    "code": "WMA11 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-08_wph11",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-08",
+    "code": "WPH11 01",
+    "title": "Physics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-11_wbs12",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-11",
+    "code": "WBS12 01",
+    "title": "Business",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-11_yla1_",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-11",
+    "code": "YLA1 01",
+    "title": "Law",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-11_wch12",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-11",
+    "code": "WCH12 01",
+    "title": "Chemistry",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-11_wen01",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-11",
+    "code": "WEN01 01",
+    "title": "English Language",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-12_wgk01",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-12",
+    "code": "WGK01 01",
+    "title": "Greek",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-12_wma12",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-12",
+    "code": "WMA12 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-12_wge01",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-12",
+    "code": "WGE01 01",
+    "title": "Geography",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-13_wec12",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-13",
+    "code": "WEC12 01",
+    "title": "Economics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-13_wsp02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-13",
+    "code": "WSP02 01",
+    "title": "Spanish",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-13_wph12",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-13",
+    "code": "WPH12 01",
+    "title": "Physics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_wdm11",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "WDM11 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_wet02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "WET02 01",
+    "title": "English Literature",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_whi01",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "WHI01 1A",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_whi01",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "WHI01 1B",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_whi01",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "WHI01 1C",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_whi01",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "WHI01 1D",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-15_wfr02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-15",
+    "code": "WFR02 01",
+    "title": "French",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-15_wps02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-15",
+    "code": "WPS02 01",
+    "title": "Psychology",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-15_wbi12",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-15",
+    "code": "WBI12 01",
+    "title": "Biology",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-18_wit12",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-18",
+    "code": "WIT12 01",
+    "title": "Information Technology (IT)",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-18_wph13",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-18",
+    "code": "WPH13 01",
+    "title": "Physics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-18_wge02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-18",
+    "code": "WGE02 01",
+    "title": "Geography",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-19_wen02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-19",
+    "code": "WEN02 01",
+    "title": "English Language",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-19_wst01",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-19",
+    "code": "WST01 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-19_wgk02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-19",
+    "code": "WGK02 01",
+    "title": "Greek",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_wac12",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "WAC12 01",
+    "title": "Accounting",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_whi02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "WHI02 1A",
+    "title": "History",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_whi02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "WHI02 1B",
+    "title": "History",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_whi02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "WHI02 1C",
+    "title": "History",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_whi02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "WHI02 1D",
+    "title": "History",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_wbi13",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "WBI13 01",
+    "title": "Biology",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-21_wch13",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-21",
+    "code": "WCH13 01",
+    "title": "Chemistry",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-21_wec13",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-21",
+    "code": "WEC13 01",
+    "title": "Economics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-21_wfm01",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-21",
+    "code": "WFM01 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-22_yla1_",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-22",
+    "code": "YLA1 02",
+    "title": "Law",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-22_wgn02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-22",
+    "code": "WGN02 01",
+    "title": "German",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-22_wps03",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-22",
+    "code": "WPS03 01",
+    "title": "Psychology",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-28_wit13",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-28",
+    "code": "WIT13 01",
+    "title": "Information Technology (IT)",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-28_wbi14",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-28",
+    "code": "WBI14 01",
+    "title": "Biology",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-29_wch14",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-29",
+    "code": "WCH14 01",
+    "title": "Chemistry",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-29_wet03",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-29",
+    "code": "WET03 01",
+    "title": "English Literature",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-29_wbs13",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-29",
+    "code": "WBS13 01",
+    "title": "Business",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-01_wen03",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-01",
+    "code": "WEN03 01",
+    "title": "English Language",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-01_wph14",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-01",
+    "code": "WPH14 01",
+    "title": "Physics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-01_waa02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-01",
+    "code": "WAA02 01",
+    "title": "Arabic",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-01_wfm02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-01",
+    "code": "WFM02 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_wma13",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "WMA13 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_wch15",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "WCH15 01",
+    "title": "Chemistry",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_whi03",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "WHI03 1A",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_whi03",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "WHI03 1B",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_whi03",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "WHI03 1C",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_whi03",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "WHI03 1D",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-03_wge03",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-03",
+    "code": "WGE03 01",
+    "title": "Geography",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-03_wme02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-03",
+    "code": "WME02 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-03_wsp04",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-03",
+    "code": "WSP04 01",
+    "title": "Spanish",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-04_wbi15",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-04",
+    "code": "WBI15 01",
+    "title": "Biology",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-04_wfr04",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-04",
+    "code": "WFR04 01",
+    "title": "French",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-04_wec14",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-04",
+    "code": "WEC14 01",
+    "title": "Economics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-05_wet04",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-05",
+    "code": "WET04 01",
+    "title": "English Literature",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-05_wph15",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-05",
+    "code": "WPH15 01",
+    "title": "Physics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-05_wst02",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-05",
+    "code": "WST02 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-08_wch16",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-08",
+    "code": "WCH16 01",
+    "title": "Chemistry",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-08_wge04",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-08",
+    "code": "WGE04 01",
+    "title": "Geography",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-08_wps04",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-08",
+    "code": "WPS04 01",
+    "title": "Psychology",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-09_wma14",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-09",
+    "code": "WMA14 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-09_wbs14",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-09",
+    "code": "WBS14 01",
+    "title": "Business",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-09_wit14",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-09",
+    "code": "WIT14 01",
+    "title": "Information Technology (IT)",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-10_wph16",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-10",
+    "code": "WPH16 01",
+    "title": "Physics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-10_wen04",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-10",
+    "code": "WEN04 01",
+    "title": "English Language",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-10_wfm03",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-10",
+    "code": "WFM03 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_wgn04",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "WGN04 01",
+    "title": "German",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_whi04",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "WHI04 1A",
+    "title": "History",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_whi04",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "WHI04 1B",
+    "title": "History",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_whi04",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "WHI04 1C",
+    "title": "History",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_whi04",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "WHI04 1D",
+    "title": "History",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_wme03",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "WME03 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-12_wbi16",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-12",
+    "code": "WBI16 01",
+    "title": "Biology",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-12_wst03",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-12",
+    "code": "WST03 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-05_accou",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-05",
+    "code": "Accounting",
+    "title": "WAC11 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_accou",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "Accounting",
+    "title": "WAC12 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-06_arabi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-06",
+    "code": "Arabic",
+    "title": "WAA01 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-01_arabi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-01",
+    "code": "Arabic",
+    "title": "WAA02 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-05_biolo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-05",
+    "code": "Biology",
+    "title": "WBI11 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-15_biolo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-15",
+    "code": "Biology",
+    "title": "WBI12 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_biolo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "Biology",
+    "title": "WBI13 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-28_biolo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-28",
+    "code": "Biology",
+    "title": "WBI14 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-04_biolo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-04",
+    "code": "Biology",
+    "title": "WBI15 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-12_biolo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-12",
+    "code": "Biology",
+    "title": "WBI16 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-06_busin",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-06",
+    "code": "Business",
+    "title": "WBS11 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-11_busin",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-11",
+    "code": "Business",
+    "title": "WBS12 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-29_busin",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-29",
+    "code": "Business",
+    "title": "WBS13 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-09_busin",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-09",
+    "code": "Business",
+    "title": "WBS14 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-06_chemi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-06",
+    "code": "Chemistry",
+    "title": "WCH11 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-11_chemi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-11",
+    "code": "Chemistry",
+    "title": "WCH12 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-21_chemi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-21",
+    "code": "Chemistry",
+    "title": "WCH13 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-29_chemi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-29",
+    "code": "Chemistry",
+    "title": "WCH14 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_chemi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "Chemistry",
+    "title": "WCH15 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-08_chemi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-08",
+    "code": "Chemistry",
+    "title": "WCH16 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-07_econo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-07",
+    "code": "Economics",
+    "title": "WEC11 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-13_econo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-13",
+    "code": "Economics",
+    "title": "WEC12 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-21_econo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-21",
+    "code": "Economics",
+    "title": "WEC13 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-04_econo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-04",
+    "code": "Economics",
+    "title": "WEC14 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-11_engli",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-11",
+    "code": "English Language",
+    "title": "WEN01 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-19_engli",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-19",
+    "code": "English Language",
+    "title": "WEN02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-01_engli",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-01",
+    "code": "English Language",
+    "title": "WEN03 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-10_engli",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-10",
+    "code": "English Language",
+    "title": "WEN04 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-08_engli",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-08",
+    "code": "English Literature",
+    "title": "WET01 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_engli",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "English Literature",
+    "title": "WET02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-29_engli",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-29",
+    "code": "English Literature",
+    "title": "WET03 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-05_engli",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-05",
+    "code": "English Literature",
+    "title": "WET04 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-15_frenc",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-15",
+    "code": "French",
+    "title": "WFR02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-04_frenc",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-04",
+    "code": "French",
+    "title": "WFR04 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-12_geogr",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-12",
+    "code": "Geography",
+    "title": "WGE01 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-18_geogr",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-18",
+    "code": "Geography",
+    "title": "WGE02 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-03_geogr",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-03",
+    "code": "Geography",
+    "title": "WGE03 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-08_geogr",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-08",
+    "code": "Geography",
+    "title": "WGE04 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-22_germa",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-22",
+    "code": "German",
+    "title": "WGN02 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_germa",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "German",
+    "title": "WGN04 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-12_greek",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-12",
+    "code": "Greek",
+    "title": "WGK01 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-19_greek",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-19",
+    "code": "Greek",
+    "title": "WGK02 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "History",
+    "title": "WHI01 1A",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "History",
+    "title": "WHI01 1B",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "History",
+    "title": "WHI01 1C",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "History",
+    "title": "WHI01 1D",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "History",
+    "title": "WHI02 1A",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "History",
+    "title": "WHI02 1B",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "History",
+    "title": "WHI02 1C",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-20_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-20",
+    "code": "History",
+    "title": "WHI02 1D",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "History",
+    "title": "WHI03 1A",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "History",
+    "title": "WHI03 1B",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "History",
+    "title": "WHI03 1C",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "History",
+    "title": "WHI03 1D",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "History",
+    "title": "WHI04 1A",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "History",
+    "title": "WHI04 1B",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "History",
+    "title": "WHI04 1C",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_histo",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "History",
+    "title": "WHI04 1D",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-07_infor",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-07",
+    "code": "Information Technology (IT)",
+    "title": "WIT11 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-18_infor",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-18",
+    "code": "Information Technology (IT)",
+    "title": "WIT12 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-28_infor",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-28",
+    "code": "Information Technology (IT)",
+    "title": "WIT13 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-09_infor",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-09",
+    "code": "Information Technology (IT)",
+    "title": "WIT14 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-11_law",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-11",
+    "code": "Law",
+    "title": "YLA1 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-22_law",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-22",
+    "code": "Law",
+    "title": "YLA1 02",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-14_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-14",
+    "code": "Mathematics",
+    "title": "WDM11 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-21_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-21",
+    "code": "Mathematics",
+    "title": "WFM01 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-01_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-01",
+    "code": "Mathematics",
+    "title": "WFM02 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-10_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-10",
+    "code": "Mathematics",
+    "title": "WFM03 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-08_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-08",
+    "code": "Mathematics",
+    "title": "WMA11 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-12_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-12",
+    "code": "Mathematics",
+    "title": "WMA12 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-02_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-02",
+    "code": "Mathematics",
+    "title": "WMA13 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-09_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-09",
+    "code": "Mathematics",
+    "title": "WMA14 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-07_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-07",
+    "code": "Mathematics",
+    "title": "WME01 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-03_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-03",
+    "code": "Mathematics",
+    "title": "WME02 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-11_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-11",
+    "code": "Mathematics",
+    "title": "WME03 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-19_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-19",
+    "code": "Mathematics",
+    "title": "WST01 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-05_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-05",
+    "code": "Mathematics",
+    "title": "WST02 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-12_mathe",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-12",
+    "code": "Mathematics",
+    "title": "WST03 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-08_physi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-08",
+    "code": "Physics",
+    "title": "WPH11 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-13_physi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-13",
+    "code": "Physics",
+    "title": "WPH12 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-18_physi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-18",
+    "code": "Physics",
+    "title": "WPH13 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-01_physi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-01",
+    "code": "Physics",
+    "title": "WPH14 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-05_physi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-05",
+    "code": "Physics",
+    "title": "WPH15 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-10_physi",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-10",
+    "code": "Physics",
+    "title": "WPH16 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-05_psych",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-05",
+    "code": "Psychology",
+    "title": "WPS01 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-15_psych",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-15",
+    "code": "Psychology",
+    "title": "WPS02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-22_psych",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-22",
+    "code": "Psychology",
+    "title": "WPS03 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-08_psych",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-08",
+    "code": "Psychology",
+    "title": "WPS04 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-05-13_spani",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-05-13",
+    "code": "Spanish",
+    "title": "WSP02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-06-03_spani",
+    "series": "Internatio",
+    "label": "International A Level - Summer 2026 Final Timetable",
+    "dateStr": "2026-06-03",
+    "code": "Spanish",
+    "title": "WSP04 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-09_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-09",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-09_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-09",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-13_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-13",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-13_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-13",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-16_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-16",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-16_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-16",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-19_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-19",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-19_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-19",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-21_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-21",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-21_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-21",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-22_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-22",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-22_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-22",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-23_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-23",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-23_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-23",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-26_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-26",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-26_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-26",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-27_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-27",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-27_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-27",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-27_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-27",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-28_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-28",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-28_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-28",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-29_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-29",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-29_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-29",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-30_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-30",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-30_pears",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-30",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-08_wbs11",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-08",
+    "code": "WBS11 01",
+    "title": "Business",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-08_wph11",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-08",
+    "code": "WPH11 01",
+    "title": "Physics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-09_wma11",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-09",
+    "code": "WMA11 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-09_wch11",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-09",
+    "code": "WCH11 01",
+    "title": "Chemistry",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-12_wec11",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-12",
+    "code": "WEC11 01",
+    "title": "Economics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-12_wbi11",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-12",
+    "code": "WBI11 01",
+    "title": "Biology",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-13_wch12",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-13",
+    "code": "WCH12 01",
+    "title": "Chemistry",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-13_wme01",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-13",
+    "code": "WME01 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-14_wbs12",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-14",
+    "code": "WBS12 01",
+    "title": "Business",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-14_wbi12",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-14",
+    "code": "WBI12 01",
+    "title": "Biology",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-15_wma12",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-15",
+    "code": "WMA12 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-15_wph12",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-15",
+    "code": "WPH12 01",
+    "title": "Physics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-16_wec12",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-16",
+    "code": "WEC12 01",
+    "title": "Economics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-16_wbi13",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-16",
+    "code": "WBI13 01",
+    "title": "Biology",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-19_wst01",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-19",
+    "code": "WST01 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-19_wph13",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-19",
+    "code": "WPH13 01",
+    "title": "Physics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-20_wbs13",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-20",
+    "code": "WBS13 01",
+    "title": "Business",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-20_wch13",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-20",
+    "code": "WCH13 01",
+    "title": "Chemistry",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-20_wac11",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-20",
+    "code": "WAC11 01",
+    "title": "Accounting",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-21_wph14",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-21",
+    "code": "WPH14 01",
+    "title": "Physics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-21_wma13",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-21",
+    "code": "WMA13 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-22_wme02",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-22",
+    "code": "WME02 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-22_wch14",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-22",
+    "code": "WCH14 01",
+    "title": "Chemistry",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-23_wbi14",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-23",
+    "code": "WBI14 01",
+    "title": "Biology",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-23_wec13",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-23",
+    "code": "WEC13 01",
+    "title": "Economics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-26_wst02",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-26",
+    "code": "WST02 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-26_wch15",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-26",
+    "code": "WCH15 01",
+    "title": "Chemistry",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-27_wbi15",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-27",
+    "code": "WBI15 01",
+    "title": "Biology",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-27_wbs14",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-27",
+    "code": "WBS14 01",
+    "title": "Business",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-27_wac12",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-27",
+    "code": "WAC12 01",
+    "title": "Accounting",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-28_wph15",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-28",
+    "code": "WPH15 01",
+    "title": "Physics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-28_wma14",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-28",
+    "code": "WMA14 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-29_wbi16",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-29",
+    "code": "WBI16 01",
+    "title": "Biology",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-29_wch16",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-29",
+    "code": "WCH16 01",
+    "title": "Chemistry",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-30_wec14",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-30",
+    "code": "WEC14 01",
+    "title": "Economics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-30_wph16",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-30",
+    "code": "WPH16 01",
+    "title": "Physics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-20_accou",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-20",
+    "code": "Accounting",
+    "title": "WAC11 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-27_accou",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-27",
+    "code": "Accounting",
+    "title": "WAC12 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-12_biolo",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-12",
+    "code": "Biology",
+    "title": "WBI11 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-14_biolo",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-14",
+    "code": "Biology",
+    "title": "WBI12 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-16_biolo",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-16",
+    "code": "Biology",
+    "title": "WBI13 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-23_biolo",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-23",
+    "code": "Biology",
+    "title": "WBI14 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-27_biolo",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-27",
+    "code": "Biology",
+    "title": "WBI15 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-29_biolo",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-29",
+    "code": "Biology",
+    "title": "WBI16 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-08_busin",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-08",
+    "code": "Business",
+    "title": "WBS11 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-14_busin",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-14",
+    "code": "Business",
+    "title": "WBS12 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-20_busin",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-20",
+    "code": "Business",
+    "title": "WBS13 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-27_busin",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-27",
+    "code": "Business",
+    "title": "WBS14 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-09_chemi",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-09",
+    "code": "Chemistry",
+    "title": "WCH11 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-13_chemi",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-13",
+    "code": "Chemistry",
+    "title": "WCH12 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-20_chemi",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-20",
+    "code": "Chemistry",
+    "title": "WCH13 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-22_chemi",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-22",
+    "code": "Chemistry",
+    "title": "WCH14 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-26_chemi",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-26",
+    "code": "Chemistry",
+    "title": "WCH15 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-29_chemi",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-29",
+    "code": "Chemistry",
+    "title": "WCH16 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-12_econo",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-12",
+    "code": "Economics",
+    "title": "WEC11 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-16_econo",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-16",
+    "code": "Economics",
+    "title": "WEC12 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-23_econo",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-23",
+    "code": "Economics",
+    "title": "WEC13 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-30_econo",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-30",
+    "code": "Economics",
+    "title": "WEC14 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-09_mathe",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-09",
+    "code": "Mathematics",
+    "title": "WMA11 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-15_mathe",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-15",
+    "code": "Mathematics",
+    "title": "WMA12 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-21_mathe",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-21",
+    "code": "Mathematics",
+    "title": "WMA13 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-28_mathe",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-28",
+    "code": "Mathematics",
+    "title": "WMA14 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-13_mathe",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-13",
+    "code": "Mathematics",
+    "title": "WME01 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-22_mathe",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-22",
+    "code": "Mathematics",
+    "title": "WME02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-19_mathe",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-19",
+    "code": "Mathematics",
+    "title": "WST01 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-26_mathe",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-26",
+    "code": "Mathematics",
+    "title": "WST02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-08_physi",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-08",
+    "code": "Physics",
+    "title": "WPH11 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-15_physi",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-15",
+    "code": "Physics",
+    "title": "WPH12 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-19_physi",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-19",
+    "code": "Physics",
+    "title": "WPH13 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-21_physi",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-21",
+    "code": "Physics",
+    "title": "WPH14 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-28_physi",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-28",
+    "code": "Physics",
+    "title": "WPH15 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2026-10-30_physi",
+    "series": "Internatio",
+    "label": "International A Level - October 2026 Final Timetable",
+    "dateStr": "2026-10-30",
+    "code": "Physics",
+    "title": "WPH16 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_pears",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "Pearson",
+    "title": "International Advanced Level",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_wen01",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "WEN01 01",
+    "title": "English Language",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_wge01",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "WGE01 01",
+    "title": "Geography",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_wma11",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "WMA11 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_wbi11",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "WBI11 01",
+    "title": "Biology",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_wfr02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "WFR02 01",
+    "title": "French",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_wps01",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "WPS01 01",
+    "title": "Psychology",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_waa01",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "WAA01 01",
+    "title": "Arabic",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_wbs11",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "WBS11 01",
+    "title": "Business",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_wch11",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "WCH11 01",
+    "title": "Chemistry",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_wec11",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "WEC11 01",
+    "title": "Economics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_wet01",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "WET01 01",
+    "title": "English Literature",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_wph11",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "WPH11 01",
+    "title": "Physics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_wac11",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "WAC11 01",
+    "title": "Accounting",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_wbi12",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "WBI12 01",
+    "title": "Biology",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_wps02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "WPS02 01",
+    "title": "Psychology",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_wch12",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "WCH12 01",
+    "title": "Chemistry",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_whi01",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "WHI01 1A",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_whi01",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "WHI01 1B",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_whi01",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "WHI01 1C",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_whi01",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "WHI01 1D",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_wst01",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "WST01 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_wec12",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "WEC12 01",
+    "title": "Economics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_wen02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "WEN02 01",
+    "title": "English Language",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_wge02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "WGE02 01",
+    "title": "Geography",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_wgn02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "WGN02 01",
+    "title": "German",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_wma12",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "WMA12 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_wph12",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "WPH12 01",
+    "title": "Physics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_waa02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "WAA02 01",
+    "title": "Arabic",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_wbi13",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "WBI13 01",
+    "title": "Biology",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_wme01",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "WME01 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_wch13",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "WCH13 01",
+    "title": "Chemistry",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_wet02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "WET02 01",
+    "title": "English Literature",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_wfm01",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "WFM01 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_wbs12",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "WBS12 01",
+    "title": "Business",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_wec13",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "WEC13 01",
+    "title": "Economics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_wen03",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "WEN03 01",
+    "title": "English Language",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_whi02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "WHI02 1A",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_whi02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "WHI02 1B",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_whi02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "WHI02 1C",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_whi02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "WHI02 1D",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_wma13",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "WMA13 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_wph13",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "WPH13 01",
+    "title": "Physics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_wbi14",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "WBI14 01",
+    "title": "Biology",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_wbs13",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "WBS13 01",
+    "title": "Business",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_wfr04",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "WFR04 01",
+    "title": "French",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_wch14",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "WCH14 01",
+    "title": "Chemistry",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_wge03",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "WGE03 01",
+    "title": "Geography",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_wst02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "WST02 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_wet03",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "WET03 01",
+    "title": "English Literature",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_wma14",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "WMA14 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_wsp02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "WSP02 01",
+    "title": "Spanish",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_wdm11",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "WDM11 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_wph14",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "WPH14 01",
+    "title": "Physics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_wps03",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "WPS03 01",
+    "title": "Psychology",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_wac12",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "WAC12 01",
+    "title": "Accounting",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_wbi15",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "WBI15 01",
+    "title": "Biology",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_wfm02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "WFM02 01",
+    "title": "Mathematics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_wec14",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "WEC14 01",
+    "title": "Economics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_whi03",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "WHI03 1A",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_whi03",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "WHI03 1B",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_whi03",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "WHI03 1C",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_whi03",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "WHI03 1D",
+    "title": "History",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_wme02",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "WME02 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_wbs14",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "WBS14 01",
+    "title": "Business",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_wch15",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "WCH15 01",
+    "title": "Chemistry",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_wgn04",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "WGN04 01",
+    "title": "German",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_wen04",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "WEN04 01",
+    "title": "English Language",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_wfm03",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "WFM03 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_wph15",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "WPH15 01",
+    "title": "Physics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_wbi16",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "WBI16 01",
+    "title": "Biology",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_wge04",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "WGE04 01",
+    "title": "Geography",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_wsp04",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "WSP04 01",
+    "title": "Spanish",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_wch16",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "WCH16 01",
+    "title": "Chemistry",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_wet04",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "WET04 01",
+    "title": "English Literature",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_wst03",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "WST03 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_whi04",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "WHI04 1A",
+    "title": "History",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_whi04",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "WHI04 1B",
+    "title": "History",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_whi04",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "WHI04 1C",
+    "title": "History",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_whi04",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "WHI04 1D",
+    "title": "History",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_wph16",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "WPH16 01",
+    "title": "Physics",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_wme03",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "WME03 01",
+    "title": "Mathematics",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_wps04",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "WPS04 01",
+    "title": "Psychology",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_accou",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Accounting",
+    "title": "WAC11 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_accou",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Accounting",
+    "title": "WAC12 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_arabi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "Arabic",
+    "title": "WAA01 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_arabi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "Arabic",
+    "title": "WAA02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_biolo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "Biology",
+    "title": "WBI11 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_biolo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Biology",
+    "title": "WBI12 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_biolo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "Biology",
+    "title": "WBI13 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_biolo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "Biology",
+    "title": "WBI14 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_biolo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Biology",
+    "title": "WBI15 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_biolo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "Biology",
+    "title": "WBI16 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_busin",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "Business",
+    "title": "WBS11 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_busin",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "Business",
+    "title": "WBS12 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_busin",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "Business",
+    "title": "WBS13 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_busin",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "Business",
+    "title": "WBS14 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_chemi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "Chemistry",
+    "title": "WCH11 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_chemi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Chemistry",
+    "title": "WCH12 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_chemi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "Chemistry",
+    "title": "WCH13 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_chemi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "Chemistry",
+    "title": "WCH14 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_chemi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "Chemistry",
+    "title": "WCH15 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_chemi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "Chemistry",
+    "title": "WCH16 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_econo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "Economics",
+    "title": "WEC11 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_econo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "Economics",
+    "title": "WEC12 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_econo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "Economics",
+    "title": "WEC13 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_econo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Economics",
+    "title": "WEC14 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_engli",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "English Language",
+    "title": "WEN01 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_engli",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "English Language",
+    "title": "WEN02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_engli",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "English Language",
+    "title": "WEN03 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_engli",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "English Language",
+    "title": "WEN04 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_engli",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "English Literature",
+    "title": "WET01 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_engli",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "English Literature",
+    "title": "WET02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_engli",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "English Literature",
+    "title": "WET03 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_engli",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "English Literature",
+    "title": "WET04 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_frenc",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "French",
+    "title": "WFR02 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_frenc",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "French",
+    "title": "WFR04 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_geogr",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "Geography",
+    "title": "WGE01 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_geogr",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "Geography",
+    "title": "WGE02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_geogr",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "Geography",
+    "title": "WGE03 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_geogr",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "Geography",
+    "title": "WGE04 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_germa",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "German",
+    "title": "WGN02 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_germa",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "German",
+    "title": "WGN04 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "History",
+    "title": "WHI01 1A",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "History",
+    "title": "WHI01 1B",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "History",
+    "title": "WHI01 1C",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "History",
+    "title": "WHI01 1D",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "History",
+    "title": "WHI02 1A",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "History",
+    "title": "WHI02 1B",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "History",
+    "title": "WHI02 1C",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "History",
+    "title": "WHI02 1D",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "History",
+    "title": "WHI03 1A",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "History",
+    "title": "WHI03 1B",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "History",
+    "title": "WHI03 1C",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "History",
+    "title": "WHI03 1D",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "History",
+    "title": "WHI04 1A",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "History",
+    "title": "WHI04 1B",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "History",
+    "title": "WHI04 1C",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_histo",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "History",
+    "title": "WHI04 1D",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "Mathematics",
+    "title": "WDM11 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "Mathematics",
+    "title": "WFM01 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Mathematics",
+    "title": "WFM02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "Mathematics",
+    "title": "WFM03 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "Mathematics",
+    "title": "WMA11 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "Mathematics",
+    "title": "WMA12 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "Mathematics",
+    "title": "WMA13 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "Mathematics",
+    "title": "WMA14 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-14_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-14",
+    "code": "Mathematics",
+    "title": "WME01 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-20_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-20",
+    "code": "Mathematics",
+    "title": "WME02 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "Mathematics",
+    "title": "WME03 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Mathematics",
+    "title": "WST01 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-18_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-18",
+    "code": "Mathematics",
+    "title": "WST02 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_mathe",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "Mathematics",
+    "title": "WST03 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-11_physi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-11",
+    "code": "Physics",
+    "title": "WPH11 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-13_physi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-13",
+    "code": "Physics",
+    "title": "WPH12 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-15_physi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-15",
+    "code": "Physics",
+    "title": "WPH13 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_physi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "Physics",
+    "title": "WPH14 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-21_physi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-21",
+    "code": "Physics",
+    "title": "WPH15 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_physi",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "Physics",
+    "title": "WPH16 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-08_psych",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-08",
+    "code": "Psychology",
+    "title": "WPS01 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-12_psych",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-12",
+    "code": "Psychology",
+    "title": "WPS02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_psych",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "Psychology",
+    "title": "WPS03 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-25_psych",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-25",
+    "code": "Psychology",
+    "title": "WPS04 01",
+    "sess": "PM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-19_spani",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-19",
+    "code": "Spanish",
+    "title": "WSP02 01",
+    "sess": "AM",
+    "type": "exam"
+  },
+  {
+    "id": "int_2027-01-22_spani",
+    "series": "Internatio",
+    "label": "International A Level - January 2027 Final Timetable",
+    "dateStr": "2027-01-22",
+    "code": "Spanish",
+    "title": "WSP04 01",
+    "sess": "AM",
+    "type": "exam"
+  }
+]
