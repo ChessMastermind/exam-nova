@@ -1,108 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ExamNova | Your Academic Pulse</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg: #0a0b10;
-            --card-bg: #141620;
-            --border: #232635;
-            --accent: #c9a84c; /* Gold */
-            --teal: #4a9b8f;
-            --text-main: #f0f0f5;
-            --text-dim: #8a8d9e;
-            --danger: #ff4d4d;
-            --ease: cubic-bezier(0.4, 0, 0.2, 1);
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ExamNova — IAL Exam Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#0e0f1a;--bg3:#1c1d2f;--bdr:#2a2c45;--gold:#c9a84c;--gdim:#7a6230;--teal:#4a9b8f;--red:#c94c6a;--cream:#e8dfc8;--muted:#7a7d99;--white:#f0ecdf;--fh:'Cormorant Garamond',Georgia,serif;--fm:'JetBrains Mono',monospace;--fb:'DM Sans',sans-serif;--r:10px;--shadow:0 4px 32px rgba(0,0,0,.45);--ease:.22s cubic-bezier(.4,0,.2,1)}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--cream);font-family:var(--fb);font-size:14px;line-height:1.6;min-height:100vh;overflow-x:hidden}
+    body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background-image:linear-gradient(rgba(201,168,76,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(201,168,76,.04) 1px,transparent 1px);background-size:60px 60px}
+    .wrap{position:relative;z-index:1;max-width:1280px;margin:0 auto;padding:0 24px}
+    header{position:sticky;top:0;z-index:100;background:rgba(14,15,26,.92);backdrop-filter:blur(18px);border-bottom:1px solid var(--bdr)}
+    .hi{display:flex;align-items:center;gap:12px;padding:13px 24px;max-width:1280px;margin:0 auto}
+    .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+    .blogo{width:34px;height:34px;border-radius:8px;flex-shrink:0;background:linear-gradient(135deg,var(--gold),var(--teal));display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-size:18px;font-weight:600;color:#0e0f1a}
+    .bname{font-family:var(--fh);font-size:21px;font-weight:600;color:var(--white)}
+    .bname span{color:var(--gold)}
+    .hsp{flex:1}
+    .sinfo{font-family:var(--fm);font-size:10px;color:var(--muted)}
+    .hero{padding:48px 0 32px}
+    .hsup{font-family:var(--fm);font-size:10px;letter-spacing:.14em;color:var(--gold);text-transform:uppercase;margin-bottom:8px}
+    .hero h1{font-family:var(--fh);font-size:clamp(30px,5vw,54px);font-weight:300;color:var(--white);line-height:1.15;margin-bottom:6px}
+    .hero h1 em{font-style:italic;color:var(--gold)}
+    .hdesc{color:var(--muted);font-size:13px;max-width:460px}
+    .nstrip{margin-bottom:32px;padding:20px 26px;background:linear-gradient(135deg,rgba(201,168,76,0.08),rgba(74,155,143,0.06));border:1px solid var(--bdr);border-radius:var(--r);display:flex;align-items:center;gap:28px;flex-wrap:wrap;box-shadow:var(--shadow)}
+    .nlbl{font-family:var(--fm);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+    .ntitle{font-family:var(--fh);font-size:20px;color:var(--white);font-weight:500}
+    .nsub{font-family:var(--fm);font-size:11px;color:var(--teal);margin-top:3px}
+    .cdg{display:flex;gap:14px;margin-left:auto}
+    .cdb{text-align:center;min-width:42px}
+    .cdn{font-family:var(--fm);font-size:30px;font-weight:500;color:var(--gold);line-height:1}
+    .cdl2{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:3px}
+    .sr{display:flex;gap:10px;margin-bottom:22px}
+    .si2{flex:1;padding:12px 18px;background:var(--bg3);border:1px solid var(--bdr);border-radius:var(--r);color:var(--cream);font-family:var(--fb);font-size:14px;outline:none;transition:var(--ease)}
+    .si2::placeholder{color:var(--muted)}.si2:focus{border-color:var(--gold)}
+    .meb{padding:9px 16px;border-radius:var(--r);white-space:nowrap;border:1px solid var(--bdr);background:transparent;color:var(--muted);font-size:12px;cursor:pointer;transition:var(--ease)}
+    .meb.on{border-color:var(--teal);color:var(--teal);background:rgba(74,155,143,.08)}
+    .mb{margin-bottom:42px}
+    .mhd{display:flex;align-items:baseline;gap:14px;padding-bottom:11px;margin-bottom:18px;border-bottom:1px solid var(--bdr)}
+    .mn{font-family:var(--fh);font-size:27px;font-weight:300;color:var(--white)}
+    .my2{font-family:var(--fm);font-size:11px;color:var(--muted)}
+    .eg{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+    .ec{background:var(--bg3);border:1px solid var(--bdr);border-radius:var(--r);padding:16px;transition:var(--ease);position:relative;overflow:hidden}
+    .ec::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px}
+    .ec.ss::before{background:var(--gold)}.ec.so::before{background:var(--teal)}.ec.sj::before{background:#9b7fcd}.ec.sk::before{background:var(--muted)}
+    .ec:hover{border-color:var(--gold);transform:translateY(-2px);box-shadow:var(--shadow)}
+    .ec.mine{border-color:var(--teal)!important}
+    .ct{display:flex;gap:11px;margin-bottom:9px}
+    .cd2{display:flex;flex-direction:column;align-items:center;min-width:44px;padding:6px;background:rgba(255,255,255,.04);border-radius:6px;flex-shrink:0}
+    .cday{font-family:var(--fm);font-size:20px;line-height:1;color:var(--white)}
+    .cmon{font-family:var(--fm);font-size:9px;text-transform:uppercase;color:var(--muted)}
+    .cm{flex:1;min-width:0}
+    .cser{font-family:var(--fm);font-size:9px;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+    .ctit{font-size:13px;color:var(--cream);font-weight:500;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .ccod{font-family:var(--fm);font-size:10px;color:var(--muted);margin-top:4px}
+    .cf{display:flex;align-items:center;justify-content:space-between;margin-top:12px;padding-top:12px;border-top:1px solid rgba(255,255,255,0.05)}
+    .cdl{font-family:var(--fm);font-size:10px;padding:2px 8px;border-radius:4px;background:rgba(255,255,255,.04)}
+    .cdl.past{color:var(--muted)}.cdl.today{color:var(--gold)}.cdl.future{color:var(--teal)}
+    .cbdg{font-family:var(--fm);font-size:9px;padding:2px 6px;border-radius:3px;margin-left:6px}
+    .am{background:rgba(201,168,76,.14);color:var(--gold)}.pm{background:rgba(74,155,143,.14);color:var(--teal)}
+    .star{background:none;border:none;cursor:pointer;font-size:18px;color:var(--muted);transition:var(--ease)}
+    .star.on{color:var(--gold)}
+    footer{margin-top:80px;padding:32px 0;border-top:1px solid var(--bdr);text-align:center;font-family:var(--fm);font-size:11px;color:var(--muted)}
+  </style>
+</head>
+<body>
+<header>
+  <div class="hi">
+    <a class="brand" href="#">
+      <div class="blogo">N</div>
+      <span class="bname">Exam<span>Nova</span></span>
+    </a>
+    <div class="hsp"></div>
+    <span class="sinfo" id="sinfo">Syncing...</span>
+  </div>
+</header>
+<main class="wrap">
+  <section class="hero">
+    <p class="hsup">Personal Academic Pulse &middot; Pearson IAL</p>
+    <h1>Your <em>exam schedule</em>,<br>streamlined.</h1>
+    <p class="hdesc">High-performance tracking for your IAL papers. Star your units to activate the live countdown pulse.</p>
+  </section>
 
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            background: var(--bg);
-            color: var(--text-main);
-            font-family: 'Inter', sans-serif;
-            line-height: 1.5;
-            -webkit-font-smoothing: antialiased;
-            overflow-x: hidden;
-        }
+  <div class="nstrip">
+    <div>
+      <div class="nlbl" id="nstatus">Next Target</div>
+      <div class="ntitle" id="ntitle">Loading...</div>
+      <div class="nsub" id="nsub">Please wait while we sync data.</div>
+    </div>
+    <div class="cdg">
+      <div class="cdb"><div class="cdn" id="cdd">00</div><div class="cdl2">Days</div></div>
+      <div class="cdb"><div class="cdn" id="cdh">00</div><div class="cdl2">Hrs</div></div>
+      <div class="cdb"><div class="cdn" id="cdm">00</div><div class="cdl2">Min</div></div>
+      <div class="cdb"><div class="cdn" id="cds">00</div><div class="cdl2">Sec</div></div>
+    </div>
+  </div>
 
-        /* Speed: Smooth scroll but reduced motion respect */
-        html { scroll-behavior: smooth; }
+  <div class="sr">
+    <input class="si2" id="search" type="text" placeholder="Search subject title, code, or month..." autofocus />
+    <button class="meb" id="mebtn">&starf; My Schedule</button>
+  </div>
 
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+  <div id="cal"></div>
+</main>
 
-        /* --- Header & Hero --- */
-        header { padding: 40px 0; border-bottom: 1px solid var(--border); margin-bottom: 40px; }
-        .nav-brand { display: flex; align-items: center; gap: 12px; text-decoration: none; margin-bottom: 20px; }
-        .logo-sq { width: 40px; height: 40px; background: linear-gradient(45deg, var(--accent), var(--teal)); border-radius: 8px; }
-        .brand-name { font-weight: 800; font-size: 24px; color: #fff; letter-spacing: -1px; }
-        .brand-name span { color: var(--accent); }
+<footer>
+  <div class="wrap">ExamNova &nbsp;&middot;&nbsp; 2026 Academic Series</div>
+</footer>
 
-        /* --- Countdown Section (The Pulse) --- */
-        .countdown-card {
-            background: linear-gradient(135deg, rgba(201,168,76,0.1) 0%, rgba(10,11,16,1) 100%);
-            border: 1px solid var(--accent);
-            border-radius: 16px;
-            padding: 30px;
-            margin-bottom: 40px;
-            text-align: center;
-            transition: transform 0.3s var(--ease);
-        }
+<script>
+'use strict';
+let ALL = [];
+let MY = new Set();
+let MYONLY = false;
+let QRY = '';
+let CDT = null;
 
-        .cd-label { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--accent); text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; }
-        .cd-title { font-size: 28px; font-weight: 600; margin-bottom: 20px; }
-        .cd-timer { display: flex; justify-content: center; gap: 20px; }
-        .cd-unit { display: flex; flex-direction: column; min-width: 70px; }
-        .cd-val { font-size: 42px; font-weight: 800; color: #fff; }
-        .cd-lbl { font-size: 10px; color: var(--text-dim); text-transform: uppercase; }
+const FUNNY = [
+  "Your schedule is emptier than my soul on a Monday.",
+  "No exams chosen? You either graduated or you're in denial.",
+  "A blank schedule is the ultimate academic flex.",
+  "Waiting for you to pick an exam is like waiting for a result email.",
+  "Your 'My Exams' list is currently a desert. Add some spice (exams)."
+];
+const SELECTED_FUNNY = FUNNY[Math.floor(Math.random() * FUNNY.length)];
 
-        /* --- Controls --- */
-        .controls { display: flex; gap: 15px; margin-bottom: 30px; flex-wrap: wrap; align-items: center; }
-        .search-wrapper { flex: 1; position: relative; min-width: 280px; }
-        .search-input { 
-            width: 100%; background: var(--card-bg); border: 1px solid var(--border); 
-            padding: 14px 20px; border-radius: 12px; color: #fff; font-size: 16px; 
-            outline: none; transition: 0.2s;
-        }
-        .search-input:focus { border-color: var(--teal); box-shadow: 0 0 0 4px rgba(74, 155, 143, 0.1); }
-        
-        .btn-toggle {
-            padding: 14px 24px; border-radius: 12px; border: 1px solid var(--border);
-            background: var(--card-bg); color: var(--text-dim); cursor: pointer;
-            font-weight: 600; transition: 0.2s; display: flex; align-items: center; gap: 8px;
-        }
-        .btn-toggle.active { background: rgba(74, 155, 143, 0.1); color: var(--teal); border-color: var(--teal); }
+function loadMy() {
+  try {
+    const r = JSON.parse(localStorage.getItem('ExamNova_my'));
+    if (r) MY = new Set(r);
+  } catch(e) {}
+}
 
-        /* --- Grid --- */
-        .exam-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; margin-bottom: 60px; }
-        
-        .exam-card {
-            background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px;
-            padding: 24px; position: relative; transition: 0.3s var(--ease);
-            display: flex; flex-direction: column; gap: 12px;
-        }
-        .exam-card:hover { transform: translateY(-4px); border-color: var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
-        .exam-card.starred { border-left: 4px solid var(--accent); }
+function saveMy() {
+  localStorage.setItem('ExamNova_my', JSON.stringify([...MY]));
+}
 
-        .card-top { display: flex; justify-content: space-between; align-items: flex-start; }
-        .series-tag { font-size: 10px; font-weight: 600; color: var(--accent); background: rgba(201,168,76,0.1); padding: 4px 8px; border-radius: 4px; }
-        .unit-code { font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--text-dim); }
-        .unit-title { font-size: 18px; font-weight: 600; color: #fff; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-        
-        .card-footer { margin-top: auto; display: flex; justify-content: space-between; align-items: center; padding-top: 15px; border-top: 1px solid var(--border); }
-        .exam-date { font-size: 14px; font-weight: 500; }
-        .star-btn { 
-            background: none; border: none; cursor: pointer; font-size: 24px; color: var(--border); transition: 0.2s; 
-        }
-        .star-btn.active { color: var(--accent); transform: scale(1.1); }
-        .sess-badge { font-size: 10px; font-weight: 800; padding: 2px 6px; border-radius: 3px; background: #232635; color: var(--teal); }
+async function loadData() {
+  try {
+    const response = await fetch('timetables.json');
+    if (!response.ok) throw new Error('JSON not found');
+    const data = await response.json();
+    
+    // Map JSON to the robust structure
+    ALL = data.map(e => ({
+      ...e,
+      // Robust series color mapping
+      sClass: e.series.toLowerCase().includes('summer') ? 'ss' : 
+              e.series.toLowerCase().includes('oct') ? 'so' : 
+              e.series.toLowerCase().includes('jan') ? 'sj' : 'sk',
+      date: new Date(e.dateStr + (e.sess === 'PM' ? 'T13:30:00' : 'T09:00:00'))
+    }));
 
-        /* --- Empty States --- */
-        .funny-msg { padding: 80px 20px; text-align: center; }
+    ALL.sort((a,b) => a.date - b.date);
+    document.getElementById('sinfo').textContent = 'Live • ' + ALL.length + ' Units';
+    updateCD();
+    render();
+  } catch (err) {
+    document.getElementById('cal').innerHTML = `<div style="text-align:center; padding:50px; color:var(--red);">Ensure 'timetables.json' is in the root directory.</div>`;
+  }
+}
+
+function updateCD() {
+  const now = new Date();
+  
+  // Logic: Priority to STARRED exams. If none starred, show funny message.
+  const starredPool = ALL.filter(e => MY.has(e.id) && e.date > now);
+  
+  if (MY.size === 0) {
+    document.getElementById('nstatus').textContent = "Status: Chilling";
+    document.getElementById('ntitle').textContent = SELECTED_FUNNY;
+    document.getElementById('nsub').textContent = "↑ Star an exam below to start the countdown pulse.";
+    CDT = null;
+    return;
+  }
+
+  if (starredPool.length === 0) {
+    document.getElementById('nstatus').textContent = "Status: Completed";
+    document.getElementById('ntitle').textContent = "All chosen exams finished!";
+    document.getElementById('nsub').textContent = "You're either done or need to add more units.";
+    CDT = null;
+    return;
+  }
+
+  const next = starredPool[0];
+  document.getElementById('nstatus').textContent = "Countdown to " + next.code;
+  document.getElementById('ntitle').textContent = next.title;
+  document.getElementById('nsub').textContent = next.date.toLocaleDateString('en-GB', { weekday: 'long', day:'numeric', month:'long' }) + " (" + next.sess + ")";
+  CDT = next.date;
+}
+
+function tickCD() {
+  if (!CDT) {
+    ['cdd','cdh','cdm','cds'].forEach(id => document.getElementById(id).textContent = '00');
+    return;
+  }
+  const d = CDT - Date.now();
+  const p = n => String(Math.max(0, n)).padStart(2, '0');
+  if (d <= 0) {
+     updateCD(); // Refresh if exam starts
+     return;
+  }
+  document.getElementById('cdd').textContent = p(Math.floor(d/86400000));
+  document.getElementById('cdh').textContent = p(Math.floor((d%86400000)/3600000));
+  document.getElementById('cdm').textContent = p(Math.floor((d%3600000)/60000));
+  document.getElementById('cds').textContent = p(Math.floor((d%60000)/1000));
+}
+
+function render() {
+  const cal = document.getElementById('cal');
+  const filtered = ALL.filter(e => {
+    if (MYONLY && !MY.has(e.id)) return false;
+    const sTerm = QRY.toLowerCase();
+    if (QRY && !(`${e.title} ${e.code} ${e.series}`.toLowerCase().includes(sTerm))) return false;
+    return true;
+  });
+
+  if (!filtered.length) {
+    cal.innerHTML = `<div style="text-align:center; padding:100px 0; color:var(--muted); font-family:var(--fm);">No results found for "${QRY}"</div>`;
+    return;
+  }
+
+  const groups = {};
+  filtered.forEach(e => {
+    const k = `${e.date.getFullYear()}-${e.date.getMonth()}`;
+    if (!groups[k]) groups[k] = [];
+    groups[k].push(e);
+  });
+
+  const MNAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+  cal.innerHTML = Object.keys(groups).sort().map(k => {
+    const [yr, mo] = k.split('-');
+    const list = groups[k];
+    return `
+      <div class="mb">
+        <div class="mhd"><span class="mn">${MNAMES[mo]}</span><span class="my2">${yr}</span></div>
+        <div class="eg">${list.map(e => card(e)).join('')}</div>
+      </div>`;
+  }).join('');
+
+  document.querySelectorAll('.star').forEach(btn => {
+    btn.onclick = () => {
+      const id = btn.dataset.id;
+      MY.has(id) ? MY.delete(id) : MY.add(id);
+      saveMy();
+      render();
+      updateCD();
+    };
+  });
+}
+
+function card(e) {
+  const starred = MY.has(e.id);
+  const diff = Math.ceil((e.date - new Date()) / 86400000);
+  const dc = diff < 0 ? 'past' : diff === 0 ? 'today' : 'future';
+  const dt = diff < 0 ? Math.abs(diff)+'d ago' : diff === 0 ? 'TODAY' : diff+'d left';
+
+  return `
+    <div class="ec ${e.sClass}${starred ? ' mine' : ''}">
+      <div class="ct">
+        <div class="cd2">
+          <span class="cday">${e.date.getDate()}</span>
+          <span class="cmon">${MNAMES[e.date.getMonth()].slice(0,3).toUpperCase()}</span>
+        </div>
+        <div class="cm">
+          <div class="cser">${e.series}</div>
+          <div class="ctit">${e.title}</div>
+          <div class="ccod">${e.code}</div>
+        </div>
+      </div>
+      <div class="cf">
+        <div>
+          <span class="cdl ${dc}">${dt}</span>
+          ${e.sess ? `<span class="cbdg ${e.sess.toLowerCase()}">${e.sess}</span>` : ''}
+        </div>
+        <button class="star ${starred ? 'on' : ''}" data-id="${e.id}">&starf;</button>
+      </div>
+    </div>`;
+}
+
+document.getElementById('search').oninput = (e) => { QRY = e.target.value; render(); };
+document.getElementById('mebtn').onclick = () => { 
+  MYONLY = !MYONLY; 
+  document.getElementById('mebtn').classList.toggle('on', MYONLY); 
+  render(); 
+};
+
+setInterval(tickCD, 1000);
+loadMy();
+loadData();
+</script>
+</body>
+</html>
         .funny-msg h2 { font-size: 24px; color: var(--text-dim); margin-bottom: 10px; }
         .funny-msg p { color: var(--accent); font-weight: 500; text-decoration: underline; cursor: pointer; }
 
