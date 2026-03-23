@@ -58,12 +58,13 @@
     .ct{display:flex;justify-content:space-between;margin-bottom:12px;align-items:center}
     .cser{font-family:var(--fm);font-size:9px;color:var(--gold);text-transform:uppercase;font-weight:700}
     
-    /* New Qualification Badge Style */
     .q-badge{font-family:var(--fm);font-size:9px;padding:2px 6px;border-radius:4px;background:rgba(255,255,255,0.08);color:var(--white);font-weight:600}
     .q-badge.ial{border:1px solid var(--teal);color:var(--teal)}
     .q-badge.ig{border:1px solid var(--gold);color:var(--gold)}
+    .q-badge.kd{border:1px solid var(--red);color:var(--red)}
 
     .ctit{font-size:15px;font-weight:500;margin-bottom:18px;line-height:1.4;height:42px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .ccod{font-family:var(--fm);font-size:12px;color:var(--muted);margin-bottom:12px}
     .cf{display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,0.05);padding-top:15px}
     .cdate{font-weight:700;font-size:13px}
     .cb{display:flex;align-items:center;gap:6px}
@@ -94,166 +95,6 @@
 
   <div class="nstrip">
     <div class="ninfo">
-      <div class="nlbl" id="nstatus">Next Target</div>
-      <div class="ntitle" id="ntitle">...</div>
-      <div class="nsub" id="nsub">...</div>
-    </div>
-    <div class="cdg">
-      <div class="cdb"><div class="cdn" id="cdd">00</div><div class="cdl2">Days</div></div>
-      <div class="cdb"><div class="cdn" id="cdh">00</div><div class="cdl2">Hrs</div></div>
-      <div class="cdb"><div class="cdn" id="cdm">00</div><div class="cdl2">Min</div></div>
-      <div class="cdb"><div class="cdn" id="cds">00</div><div class="cdl2">Sec</div></div>
-    </div>
-  </div>
-
-  <div class="filter-row">
-    <button class="ftab active" data-q="all">All</button>
-    <button class="ftab" data-q="ial">IAL</button>
-    <button class="ftab" data-q="ig">IGCSE</button>
-    <button class="ftab" data-q="kd">Deadlines</button>
-  </div>
-
-  <div class="controls">
-    <input class="si2" id="search" type="text" placeholder="Filter subjects..." autofocus />
-    <button class="meb" id="mebtn">★ My Schedule</button>
-  </div>
-
-  <div id="cal" class="eg"></div>
-</main>
-
-<footer>
-  <div class="wrap">ExamNova &nbsp;&middot;&nbsp; 2026 Academic Series</div>
-</footer>
-
-<script>
-'use strict';
-let ALL = [];
-let MY = new Set(JSON.parse(localStorage.getItem('Nova_Starred') || '[]'));
-let MYONLY = false;
-let QRY = '';
-let QUAL_FILTER = 'all';
-let CDT = null;
-
-const MESSAGES = ["Ready to study?", "deniAL is not a river in Egypt. Pick an exam.", "Star a unit to see the countdown.", "Your schedule is currently empty."];
-const SESSION_MSG = MESSAGES[Math.floor(Math.random() * MESSAGES.length)];
-
-async function init() {
-  try {
-    const resp = await fetch('timetables.json');
-    const data = await resp.json();
-    ALL = data.map(e => ({
-      ...e,
-      jsDate: new Date(e.dateStr + (e.sess === 'PM' ? 'T13:30:00' : 'T09:00:00'))
-    })).sort((a,b) => a.jsDate - b.jsDate);
-    document.getElementById('sinfo').textContent = ALL.length + ' Entries';
-    updatePulse();
-    render();
-  } catch (e) {
-    document.getElementById('cal').innerHTML = "Check timetables.json";
-  }
-}
-
-function updatePulse() {
-  const now = new Date();
-  const next = ALL.find(e => MY.has(e.id) && e.jsDate > now);
-  const titleEl = document.getElementById('ntitle');
-  const subEl = document.getElementById('nsub');
-  const statEl = document.getElementById('nstatus');
-
-  if (MY.size === 0) {
-    statEl.textContent = "Status: Idle";
-    titleEl.textContent = SESSION_MSG;
-    subEl.textContent = "Star an exam to start the pulse.";
-    CDT = null;
-    return;
-  }
-  if (!next) {
-    statEl.textContent = "Status: Finished";
-    titleEl.textContent = "All exams complete!";
-    subEl.textContent = "Enjoy your break.";
-    CDT = null;
-    return;
-  }
-  statEl.textContent = "Next Event: " + next.code;
-  titleEl.textContent = next.title;
-  subEl.textContent = next.jsDate.toLocaleDateString('en-GB', { day:'numeric', month:'long' }) + (next.sess ? " — " + next.sess : "");
-  CDT = next.jsDate;
-}
-
-function tick() {
-  if (!CDT) {
-    ['cdd','cdh','cdm','cds'].forEach(id => document.getElementById(id).textContent = '00');
-    return;
-  }
-  const diff = CDT - Date.now();
-  if (diff <= 0) { updatePulse(); return; }
-  const d = Math.floor(diff / 86400000);
-  const h = Math.floor((diff % 86400000) / 3600000);
-  const m = Math.floor((diff % 3600000) / 60000);
-  const s = Math.floor((diff % 60000) / 1000);
-  document.getElementById('cdd').textContent = String(d).padStart(2, '0');
-  document.getElementById('cdh').textContent = String(h).padStart(2, '0');
-  document.getElementById('cdm').textContent = String(m).padStart(2, '0');
-  document.getElementById('cds').textContent = String(s).padStart(2, '0');
-}
-
-function render() {
-  const cal = document.getElementById('cal');
-  const filtered = ALL.filter(e => {
-    if (MYONLY && !MY.has(e.id)) return false;
-    if (QUAL_FILTER !== 'all' && e.qualType !== QUAL_FILTER) return false;
-    const term = QRY.toLowerCase();
-    return e.title.toLowerCase().includes(term) || e.code.toLowerCase().includes(term);
-  });
-
-  cal.innerHTML = filtered.map(e => {
-    // Show IAL or IGCSE badge
-    const qLabel = e.qualType === 'ig' ? 'IGCSE' : e.qualType === 'ial' ? 'IAL' : 'KEY';
-    const qClass = e.qualType === 'ig' ? 'ig' : e.qualType === 'ial' ? 'ial' : '';
-
-    return `
-    <div class="ec ${e.type === 'keydate' ? 'rk' : ''} ${MY.has(e.id) ? 'mine' : ''}">
-      <div class="ct">
-        <span class="cser">${e.tag}</span>
-        <span class="q-badge ${qClass}">${qLabel}</span>
-      </div>
-      <div class="ctit">${e.title}</div>
-      <div class="ccod">${e.code}</div>
-      <div class="cf">
-        <div class="cb">
-          <span class="cdate">${e.jsDate.toLocaleDateString('en-GB', {day:'2-digit', month:'short'})}</span>
-          ${e.sess ? `<span class="cbdg ${e.sess.toLowerCase()}">${e.sess}</span>` : ''}
-        </div>
-        <button class="star ${MY.has(e.id) ? 'on' : ''}" onclick="toggleStar('${e.id}')">★</button>
-      </div>
-    </div>
-  `}).join('');
-}
-
-window.toggleStar = (id) => {
-  MY.has(id) ? MY.delete(id) : MY.add(id);
-  localStorage.setItem('Nova_Starred', JSON.stringify([...MY]));
-  render();
-  updatePulse();
-};
-
-document.getElementById('search').oninput = (e) => { QRY = e.target.value; render(); };
-document.getElementById('mebtn').onclick = () => { MYONLY = !MYONLY; document.getElementById('mebtn').classList.toggle('on', MYONLY); render(); };
-document.querySelectorAll('.ftab').forEach(btn => {
-  btn.onclick = () => {
-    document.querySelectorAll('.ftab').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    QUAL_FILTER = btn.dataset.q;
-    render();
-  };
-});
-
-setInterval(tick, 1000);
-init();
-</script>
-</body>
-</html>
-    <div class="ninfo">
       <div class="nlbl" id="nstatus">Pulse Status</div>
       <div class="ntitle" id="ntitle">Awaiting Input...</div>
       <div class="nsub" id="nsub">Star an event to begin tracking.</div>
@@ -267,190 +108,10 @@ init();
   </div>
 
   <div class="filter-row">
-    <button class="ftab active" data-q="all">Everything</button>
-    <button class="ftab" data-q="ial">IAL (A-Levels)</button>
-    <button class="ftab" data-q="ig">IGCSE</button>
-    <button class="ftab" data-q="kd">Key Deadlines</button>
-  </div>
-
-  <div class="controls">
-    <input class="si2" id="search" type="text" placeholder="Search by subject, month, or unit code..." autofocus />
-    <button class="meb" id="mebtn">★ My Schedule</button>
-  </div>
-
-  <div id="cal" class="eg"></div>
-</main>
-
-<footer>
-  <div class="wrap">ExamNova &nbsp;&middot;&nbsp; 2026 Combined Series &nbsp;&middot;&nbsp; Verified Pearson Data</div>
-</footer>
-
-<script>
-'use strict';
-
-let ALL = [];
-let MY = new Set(JSON.parse(localStorage.getItem('Nova_Starred') || '[]'));
-let MYONLY = false;
-let QRY = '';
-let QUAL_FILTER = 'all';
-let CDT = null;
-
-// Persistent Funny Messages
-const MESSAGES = [
-  "Your schedule is a blank canvas of academic peace.",
-  "No exams chosen? You're either a graduate or a magician.",
-  "DENIAL is not just a river in Egypt. Pick a paper.",
-  "Your 'My Schedule' is currently a desert. Star something!",
-  "Chilling level: Expert. Add an exam to break the silence."
-];
-const SESSION_MSG = MESSAGES[Math.floor(Math.random() * MESSAGES.length)];
-
-async function init() {
-  try {
-    const resp = await fetch('timetables.json');
-    if (!resp.ok) throw new Error("JSON not found");
-    const data = await resp.json();
-    
-    ALL = data.map(e => ({
-      ...e,
-      jsDate: new Date(e.dateStr + (e.sess === 'PM' ? 'T13:30:00' : 'T09:00:00'))
-    })).sort((a,b) => a.jsDate - b.jsDate);
-
-    document.getElementById('sinfo').textContent = ALL.length + ' Entries Synced';
-    updatePulse();
-    render();
-  } catch (e) {
-    document.getElementById('cal').innerHTML = `<div style="text-align:center; padding:50px; color:var(--red);">Unable to load timetables.json. Run your scraper first.</div>`;
-  }
-}
-
-function updatePulse() {
-  const now = new Date();
-  // Find next target among starred items in the future
-  const next = ALL.find(e => MY.has(e.id) && e.jsDate > now);
-  
-  const titleEl = document.getElementById('ntitle');
-  const subEl = document.getElementById('nsub');
-  const statEl = document.getElementById('nstatus');
-
-  if (MY.size === 0) {
-    statEl.textContent = "Status: Chilling";
-    titleEl.textContent = SESSION_MSG;
-    subEl.textContent = "↑ Click the star on any card to start the countdown.";
-    CDT = null;
-    return;
-  }
-
-  if (!next) {
-    statEl.textContent = "Status: Finished";
-    titleEl.textContent = "All exams finished! Time to relax.";
-    subEl.textContent = "Your starred schedule is clear.";
-    CDT = null;
-    return;
-  }
-
-  statEl.textContent = "Next Event: " + next.code;
-  titleEl.textContent = next.title;
-  subEl.textContent = next.jsDate.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' }) + (next.sess ? " — " + next.sess : "");
-  CDT = next.jsDate;
-}
-
-function tick() {
-  if (!CDT) {
-    ['cdd','cdh','cdm','cds'].forEach(id => document.getElementById(id).textContent = '00');
-    return;
-  }
-  const diff = CDT - Date.now();
-  if (diff <= 0) { updatePulse(); return; }
-  
-  const d = Math.floor(diff / 86400000);
-  const h = Math.floor((diff % 86400000) / 3600000);
-  const m = Math.floor((diff % 3600000) / 60000);
-  const s = Math.floor((diff % 60000) / 1000);
-  
-  document.getElementById('cdd').textContent = String(d).padStart(2, '0');
-  document.getElementById('cdh').textContent = String(h).padStart(2, '0');
-  document.getElementById('cdm').textContent = String(m).padStart(2, '0');
-  document.getElementById('cds').textContent = String(s).padStart(2, '0');
-}
-
-function render() {
-  const cal = document.getElementById('cal');
-  const filtered = ALL.filter(e => {
-    if (MYONLY && !MY.has(e.id)) return false;
-    if (QUAL_FILTER !== 'all' && e.qualType !== QUAL_FILTER) return false;
-    const term = QRY.toLowerCase();
-    return e.title.toLowerCase().includes(term) || e.code.toLowerCase().includes(term);
-  });
-
-  if (filtered.length === 0) {
-    cal.innerHTML = `<div style="grid-column: 1/-1; text-align:center; padding:60px; color:var(--muted);">No matching entries found. Try adjusting your filters.</div>`;
-    return;
-  }
-
-  cal.innerHTML = filtered.map(e => `
-    <div class="ec ${e.type === 'keydate' ? 'rk' : ''} ${MY.has(e.id) ? 'mine' : ''}">
-      <div class="ct">
-        <span class="cser">${e.tag}</span>
-        <span class="ccod">${e.code}</span>
-      </div>
-      <div class="ctit">${e.title}</div>
-      <div class="cf">
-        <div class="cb">
-          <span class="cdate">${e.jsDate.toLocaleDateString('en-GB', {day:'2-digit', month:'short'})}</span>
-          ${e.sess ? `<span class="cbdg ${e.sess.toLowerCase()}">${e.sess}</span>` : ''}
-        </div>
-        <button class="star ${MY.has(e.id) ? 'on' : ''}" onclick="toggleStar('${e.id}')">★</button>
-      </div>
-    </div>
-  `).join('');
-}
-
-window.toggleStar = (id) => {
-  MY.has(id) ? MY.delete(id) : MY.add(id);
-  localStorage.setItem('Nova_Starred', JSON.stringify([...MY]));
-  render();
-  updatePulse();
-};
-
-document.getElementById('search').oninput = (e) => { QRY = e.target.value; render(); };
-
-document.getElementById('mebtn').onclick = () => {
-  MYONLY = !MYONLY;
-  document.getElementById('mebtn').classList.toggle('on', MYONLY);
-  render();
-};
-
-document.querySelectorAll('.ftab').forEach(btn => {
-    btn.onclick = () => {
-        document.querySelectorAll('.ftab').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        QUAL_FILTER = btn.dataset.q;
-        render();
-    };
-});
-
-setInterval(tick, 1000);
-init();
-</script>
-</body>
-</html>
-      <div class="ntitle" id="ntitle">...</div>
-      <div class="nsub" id="nsub">...</div>
-    </div>
-    <div class="cdg">
-      <div class="cdb"><div class="cdn" id="cdd">00</div><div class="cdl2">Days</div></div>
-      <div class="cdb"><div class="cdn" id="cdh">00</div><div class="cdl2">Hrs</div></div>
-      <div class="cdb"><div class="cdn" id="cdm">00</div><div class="cdl2">Min</div></div>
-      <div class="cdb"><div class="cdn" id="cds">00</div><div class="cdl2">Sec</div></div>
-    </div>
-  </div>
-
-  <div class="filter-row">
     <button class="ftab active" data-q="all">All Entries</button>
     <button class="ftab" data-q="ial">A-Levels (IAL)</button>
     <button class="ftab" data-q="ig">IGCSE</button>
-    <button class="ftab" data-q="kd">Key Dates</button>
+    <button class="ftab" data-q="kd">Key Deadlines</button>
   </div>
 
   <div class="controls">
@@ -468,7 +129,6 @@ init();
 <script>
 'use strict';
 
-// 1. ADD BUILT-IN KEY DATES (Based on provided link)
 const KEY_DATES = [
     { id: "kd1", code: "DEADLINE", title: "Last Day for Withdrawals (Refund)", dateStr: "2026-04-21", type: "keydate", series: "Admin" },
     { id: "kd2", code: "FEES", title: "Late Entry Fees Apply from this Date", dateStr: "2026-04-22", type: "keydate", series: "Admin" },
@@ -486,47 +146,47 @@ let CDT = null;
 const MESSAGES = [
   "Your schedule is a blank canvas of academic peace.",
   "No exams chosen? Chilling level: Expert.",
-  "DENIAL is not just a river in Egypt. Pick a paper.",
+  "deniAL is not just a river in Egypt. Pick a paper.",
   "Waiting for you to star an exam is like waiting for a results email.",
   "Your schedule is emptier than a library on a Friday night."
 ];
 const SESSION_MSG = MESSAGES[Math.floor(Math.random() * MESSAGES.length)];
 
 async function init() {
+  let externalData = [];
   try {
     const resp = await fetch('timetables.json');
-    const externalData = await resp.json();
-    
-    const combined = [...externalData, ...KEY_DATES];
-
-    ALL = combined.map(e => {
-      const fullTxt = (e.label || e.series || '').toLowerCase();
-      let tag = 'EXAM';
-      if (e.type === 'keydate') tag = 'KEY DATE';
-      else if (fullTxt.includes('summer')) tag = 'SUMMER';
-      else if (fullTxt.includes('oct')) tag = 'OCT';
-      else if (fullTxt.includes('jan')) tag = 'JAN';
-
-      // Detect Qualification for filtering
-      let qualType = 'other';
-      if (fullTxt.includes('gcse') || fullTxt.includes('ig')) qualType = 'ig';
-      else if (fullTxt.includes('level') || fullTxt.includes('ial')) qualType = 'ial';
-      if (e.type === 'keydate') qualType = 'kd';
-
-      return {
-        ...e,
-        tag,
-        qualType,
-        jsDate: new Date(e.dateStr + (e.sess === 'PM' ? 'T13:30:00' : 'T09:00:00'))
-      };
-    }).sort((a,b) => a.jsDate - b.jsDate);
-
-    document.getElementById('sinfo').textContent = ALL.length + ' Entries Synced';
-    updatePulse();
-    render();
+    if (resp.ok) externalData = await resp.json();
   } catch (e) {
-    document.getElementById('cal').innerHTML = "JSON Data Missing.";
+    console.warn("JSON Data Missing. Loading default key dates only.");
   }
+  
+  const combined = [...externalData, ...KEY_DATES];
+
+  ALL = combined.map(e => {
+    const fullTxt = (e.label || e.series || '').toLowerCase();
+    let tag = 'EXAM';
+    if (e.type === 'keydate') tag = 'KEY DATE';
+    else if (fullTxt.includes('summer')) tag = 'SUMMER';
+    else if (fullTxt.includes('oct')) tag = 'OCT';
+    else if (fullTxt.includes('jan')) tag = 'JAN';
+
+    let qualType = 'other';
+    if (fullTxt.includes('gcse') || fullTxt.includes('ig')) qualType = 'ig';
+    else if (fullTxt.includes('level') || fullTxt.includes('ial')) qualType = 'ial';
+    if (e.type === 'keydate') qualType = 'kd';
+
+    return {
+      ...e,
+      tag,
+      qualType,
+      jsDate: new Date(e.dateStr + (e.sess === 'PM' ? 'T13:30:00' : 'T09:00:00'))
+    };
+  }).sort((a,b) => a.jsDate - b.jsDate);
+
+  document.getElementById('sinfo').textContent = ALL.length + ' Entries Synced';
+  updatePulse();
+  render();
 }
 
 function updatePulse() {
@@ -546,7 +206,7 @@ function updatePulse() {
 
   if (!next) {
     statEl.textContent = "Status: Finished";
-    titleEl.textContent = "Mission Accomplished. All exams done.";
+    titleEl.textContent = "Mission Accomplished. All tasks done.";
     subEl.textContent = "Time to enjoy your freedom.";
     CDT = null;
     return;
@@ -584,13 +244,23 @@ function render() {
     return e.title.toLowerCase().includes(term) || e.code.toLowerCase().includes(term);
   });
 
-  cal.innerHTML = filtered.map(e => `
+  if (filtered.length === 0) {
+    cal.innerHTML = `<div style="grid-column: 1/-1; text-align:center; padding:60px; color:var(--muted);">No matching entries found. Try adjusting your filters.</div>`;
+    return;
+  }
+
+  cal.innerHTML = filtered.map(e => {
+    const qLabel = e.qualType === 'ig' ? 'IGCSE' : e.qualType === 'ial' ? 'IAL' : e.qualType === 'kd' ? 'DEADLINE' : 'KEY';
+    const qClass = e.qualType;
+    
+    return `
     <div class="ec ${e.type === 'keydate' ? 'rk' : ''} ${MY.has(e.id) ? 'mine' : ''}">
       <div class="ct">
         <span class="cser">${e.tag}</span>
-        <span class="ccod">${e.code}</span>
+        <span class="q-badge ${qClass}">${qLabel}</span>
       </div>
       <div class="ctit">${e.title}</div>
+      <div class="ccod">${e.code}</div>
       <div class="cf">
         <div class="cb">
           <span class="cdate">${e.jsDate.toLocaleDateString('en-GB', {day:'2-digit', month:'short'})}</span>
@@ -599,7 +269,7 @@ function render() {
         <button class="star ${MY.has(e.id) ? 'on' : ''}" onclick="toggleStar('${e.id}')">★</button>
       </div>
     </div>
-  `).join('');
+  `}).join('');
 }
 
 window.toggleStar = (id) => {
@@ -624,290 +294,6 @@ document.querySelectorAll('.ftab').forEach(btn => {
         render();
     };
 });
-
-setInterval(tick, 1000);
-init();
-</script>
-</body>
-</html>
-<footer>
-  <div class="wrap">ExamNova &nbsp;&middot;&nbsp; 2026 Academic Pulse</div>
-</footer>
-
-<script>
-'use strict';
-let ALL = [];
-let MY = new Set(JSON.parse(localStorage.getItem('Nova_Starred') || '[]'));
-let MYONLY = false;
-let QRY = '';
-let CDT = null;
-
-const MESSAGES = [
-  "Your schedule is a blank canvas of academic peace.",
-  "No exams chosen? deniAL is not just a river in Egypt.",
-  "Your 'My Schedule' is currently a desert. Add some units.",
-  "Plot twist: You need to star an exam to see a countdown.",
-  "Chilling level: Expert. Add an exam to break the peace."
-];
-const SESSION_MSG = MESSAGES[Math.floor(Math.random() * MESSAGES.length)];
-
-async function init() {
-  try {
-    const resp = await fetch('timetables.json');
-    const data = await resp.json();
-    
-    ALL = data.map(e => {
-      // FIX: Improved Tag Logic (Checks label then series)
-      const fullTxt = (e.label + ' ' + e.series).toLowerCase();
-      let tag = 'EXAM';
-      if (fullTxt.includes('summer')) tag = 'SUMMER';
-      else if (fullTxt.includes('oct')) tag = 'OCT';
-      else if (fullTxt.includes('jan')) tag = 'JAN';
-
-      return {
-        ...e,
-        tag: tag,
-        jsDate: new Date(e.dateStr + (e.sess === 'PM' ? 'T13:30:00' : 'T09:00:00'))
-      };
-    }).sort((a,b) => a.jsDate - b.jsDate);
-
-    document.getElementById('sinfo').textContent = ALL.length + ' Units Syncing';
-    updatePulse();
-    render();
-  } catch (e) {
-    document.getElementById('cal').innerHTML = "JSON Missing.";
-  }
-}
-
-function updatePulse() {
-  const now = new Date();
-  const next = ALL.find(e => MY.has(e.id) && e.jsDate > now);
-  const titleEl = document.getElementById('ntitle');
-  const subEl = document.getElementById('nsub');
-  const statEl = document.getElementById('nstatus');
-
-  if (MY.size === 0) {
-    statEl.textContent = "Status: Chilling";
-    titleEl.textContent = SESSION_MSG;
-    subEl.textContent = "↑ Star an exam below to begin.";
-    CDT = null;
-    return;
-  }
-
-  if (!next) {
-    statEl.textContent = "Status: Clear";
-    titleEl.textContent = "All exams finished! Go touch grass.";
-    subEl.textContent = "No upcoming papers in your schedule.";
-    CDT = null;
-    return;
-  }
-
-  statEl.textContent = "Next Target: " + next.code;
-  titleEl.textContent = next.title;
-  subEl.textContent = next.jsDate.toLocaleDateString('en-GB', { day:'numeric', month:'long' }) + " — " + next.sess;
-  CDT = next.jsDate;
-}
-
-function tick() {
-  if (!CDT) {
-    ['cdd','cdh','cdm','cds'].forEach(id => document.getElementById(id).textContent = '00');
-    return;
-  }
-  const diff = CDT - Date.now();
-  if (diff <= 0) { updatePulse(); return; }
-  
-  const d = Math.floor(diff / 86400000);
-  const h = Math.floor((diff % 86400000) / 3600000);
-  const m = Math.floor((diff % 3600000) / 60000);
-  const s = Math.floor((diff % 60000) / 1000);
-  
-  document.getElementById('cdd').textContent = String(d).padStart(2, '0');
-  document.getElementById('cdh').textContent = String(h).padStart(2, '0');
-  document.getElementById('cdm').textContent = String(m).padStart(2, '0');
-  document.getElementById('cds').textContent = String(s).padStart(2, '0');
-}
-
-function render() {
-  const cal = document.getElementById('cal');
-  const filtered = ALL.filter(e => {
-    if (MYONLY && !MY.has(e.id)) return false;
-    const term = QRY.toLowerCase();
-    return e.title.toLowerCase().includes(term) || e.code.toLowerCase().includes(term);
-  });
-
-  cal.innerHTML = filtered.map(e => `
-    <div class="ec ${MY.has(e.id) ? 'mine' : ''}">
-      <div class="ct">
-        <span class="cser">${e.tag}</span>
-        <span class="ccod">${e.code}</span>
-      </div>
-      <div class="ctit">${e.title}</div>
-      <div class="cf">
-        <div class="cb">
-          <span class="cdate">${e.jsDate.toLocaleDateString('en-GB', {day:'2-digit', month:'short'})}</span>
-          <span class="cbdg ${e.sess.toLowerCase()}">${e.sess}</span>
-        </div>
-        <button class="star ${MY.has(e.id) ? 'on' : ''}" onclick="toggleStar('${e.id}')">★</button>
-      </div>
-    </div>
-  `).join('');
-}
-
-window.toggleStar = (id) => {
-  MY.has(id) ? MY.delete(id) : MY.add(id);
-  localStorage.setItem('Nova_Starred', JSON.stringify([...MY]));
-  render();
-  updatePulse();
-};
-
-document.getElementById('search').oninput = (e) => { QRY = e.target.value; render(); };
-document.getElementById('mebtn').onclick = () => {
-  MYONLY = !MYONLY;
-  document.getElementById('mebtn').classList.toggle('on', MYONLY);
-  render();
-};
-
-setInterval(tick, 1000);
-init();
-</script>
-</body>
-</html>
-    <input class="si2" id="search" type="text" placeholder="Search subject or code..." autofocus />
-    <button class="meb" id="mebtn">★ My Schedule</button>
-  </div>
-
-  <div id="cal" class="eg"></div>
-</main>
-
-<footer>
-  <div class="wrap">ExamNova &nbsp;&middot;&nbsp; IAL 2026-2027</div>
-</footer>
-
-<script>
-'use strict';
-let ALL = [];
-let MY = new Set(JSON.parse(localStorage.getItem('Nova_Starred') || '[]'));
-let MYONLY = false;
-let QRY = '';
-let CDT = null;
-
-const MESSAGES = [
-  "Your schedule is a blank canvas of peace.",
-  "No exams? You're either a graduate or a magician.",
-  "DENIAL is not just a river in Egypt. Pick an exam.",
-  "Academic chill mode: Activated. Choose a paper to see a timer.",
-  "Your 'My Schedule' is currently a desert. Star something!"
-];
-// Choose one message per session
-const SELECTED_MSG = MESSAGES[Math.floor(Math.random() * MESSAGES.length)];
-
-async function init() {
-  try {
-    const resp = await fetch('timetables.json');
-    const data = await resp.json();
-    
-    ALL = data.map(e => ({
-      ...e,
-      jsDate: new Date(e.dateStr + (e.sess === 'PM' ? 'T13:30:00' : 'T09:00:00')),
-      // Simple logic for series tags to avoid text overflow
-      tag: e.series.includes('Summer') ? 'SUMMER' : e.series.includes('Oct') ? 'OCT' : 'JAN'
-    })).sort((a,b) => a.jsDate - b.jsDate);
-
-    document.getElementById('sinfo').textContent = ALL.length + ' Units Loaded';
-    updatePulse();
-    render();
-  } catch (e) {
-    document.getElementById('cal').innerHTML = "JSON Data Missing.";
-  }
-}
-
-function updatePulse() {
-  const now = new Date();
-  const next = ALL.find(e => MY.has(e.id) && e.jsDate > now);
-  const titleEl = document.getElementById('ntitle');
-  const subEl = document.getElementById('nsub');
-  const statEl = document.getElementById('nstatus');
-
-  if (MY.size === 0) {
-    statEl.textContent = "Status: Chilling";
-    titleEl.textContent = SELECTED_MSG;
-    subEl.textContent = "↑ Click the star on any unit below to track it.";
-    CDT = null;
-    return;
-  }
-
-  if (!next) {
-    statEl.textContent = "Status: Finished";
-    titleEl.textContent = "All clear! No upcoming papers.";
-    subEl.textContent = "Time to touch grass.";
-    CDT = null;
-    return;
-  }
-
-  statEl.textContent = "Countdown to " + next.code;
-  titleEl.textContent = next.title;
-  subEl.textContent = next.jsDate.toLocaleDateString('en-GB', { weekday: 'long', day:'numeric', month:'long' }) + " (" + next.sess + ")";
-  CDT = next.jsDate;
-}
-
-function tick() {
-  if (!CDT) {
-    ['cdd','cdh','cdm','cds'].forEach(id => document.getElementById(id).textContent = '00');
-    return;
-  }
-  const diff = CDT - Date.now();
-  if (diff <= 0) { updatePulse(); return; }
-  
-  const d = Math.floor(diff / 86400000);
-  const h = Math.floor((diff % 86400000) / 3600000);
-  const m = Math.floor((diff % 3600000) / 60000);
-  const s = Math.floor((diff % 60000) / 1000);
-  
-  document.getElementById('cdd').textContent = String(d).padStart(2, '0');
-  document.getElementById('cdh').textContent = String(h).padStart(2, '0');
-  document.getElementById('cdm').textContent = String(m).padStart(2, '0');
-  document.getElementById('cds').textContent = String(s).padStart(2, '0');
-}
-
-function render() {
-  const cal = document.getElementById('cal');
-  const filtered = ALL.filter(e => {
-    if (MYONLY && !MY.has(e.id)) return false;
-    const term = QRY.toLowerCase();
-    return e.title.toLowerCase().includes(term) || e.code.toLowerCase().includes(term);
-  });
-
-  cal.innerHTML = filtered.map(e => `
-    <div class="ec ${MY.has(e.id) ? 'mine' : ''}">
-      <div class="ct">
-        <span class="cser">${e.tag}</span>
-        <span class="ccod">${e.code}</span>
-      </div>
-      <div class="ctit">${e.title}</div>
-      <div class="cf">
-        <div class="cb">
-          <span class="cdate">${e.jsDate.toLocaleDateString('en-GB', {day:'2-digit', month:'short'})}</span>
-          <span class="cbdg ${e.sess.toLowerCase()}">${e.sess}</span>
-        </div>
-        <button class="star ${MY.has(e.id) ? 'on' : ''}" onclick="toggleStar('${e.id}')">★</button>
-      </div>
-    </div>
-  `).join('');
-}
-
-window.toggleStar = (id) => {
-  MY.has(id) ? MY.delete(id) : MY.add(id);
-  localStorage.setItem('Nova_Starred', JSON.stringify([...MY]));
-  render();
-  updatePulse();
-};
-
-document.getElementById('search').oninput = (e) => { QRY = e.target.value; render(); };
-document.getElementById('mebtn').onclick = () => {
-  MYONLY = !MYONLY;
-  document.getElementById('mebtn').classList.toggle('on', MYONLY);
-  render();
-};
 
 setInterval(tick, 1000);
 init();
