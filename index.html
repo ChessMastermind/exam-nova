@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
   <style>
-    :root{--bg:#0e0f1a;--bg3:#161726;--bdr:#26283d;--gold:#c9a84c;--teal:#4a9b8f;--red:#c94c6a;--muted:#7a7d99;--white:#f0ecdf;--fh:'Cormorant Garamond',serif;--fm:'JetBrains Mono',monospace;--fb:'DM Sans',sans-serif;--shadow:0 10px 40px rgba(0,0,0,0.5);--ease:cubic-bezier(0.4, 0, 0.2, 1)}
+    :root{--bg:#0e0f1a;--bg3:#161726;--bdr:#26283d;--gold:#c9a84c;--teal:#4a9b8f;--red:#ef4444;--muted:#7a7d99;--white:#f0ecdf;--fh:'Cormorant Garamond',serif;--fm:'JetBrains Mono',monospace;--fb:'DM Sans',sans-serif;--shadow:0 10px 40px rgba(0,0,0,0.5);--ease:cubic-bezier(0.4, 0, 0.2, 1)}
     
     *{box-sizing:border-box;margin:0;padding:0}
     body{background:var(--bg);color:var(--white);font-family:var(--fb);font-size:14px;min-height:100vh;overflow-x:hidden}
@@ -23,11 +23,11 @@
     .bname span{color:var(--gold)}
     .sinfo{font-family:var(--fm);font-size:10px;color:var(--muted)}
 
-    /* Hero & Strip */
-    .hero{padding:40px 0 20px}
-    .hsup{font-family:var(--fm);font-size:10px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;margin-bottom:8px}
+    /* Hero & Pulse Strip */
+    .hero{padding:35px 0 15px}
+    .hsup{font-family:var(--fm);font-size:9px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;margin-bottom:8px}
     
-    .nstrip{margin-bottom:35px;padding:25px;background:var(--bg3);border:1px solid var(--bdr);border-radius:16px;display:flex;align-items:center;gap:30px;flex-wrap:wrap;box-shadow:var(--shadow)}
+    .nstrip{margin-bottom:30px;padding:25px;background:var(--bg3);border:1px solid var(--bdr);border-radius:16px;display:flex;align-items:center;gap:30px;flex-wrap:wrap;box-shadow:var(--shadow)}
     .ninfo{flex:1;min-width:280px}
     .nlbl{font-family:var(--fm);font-size:9px;text-transform:uppercase;letter-spacing:2px;color:var(--gold);margin-bottom:6px}
     .ntitle{font-family:var(--fh);font-size:24px;line-height:1.2;color:var(--white)}
@@ -38,48 +38,50 @@
     .cdn{font-family:var(--fm);font-size:28px;font-weight:500;color:var(--white)}
     .cdl2{font-size:8px;text-transform:uppercase;color:var(--muted);margin-top:2px}
 
-    /* Tabs & Controls */
-    .filter-row{display:flex;gap:8px;margin-bottom:15px;flex-wrap:wrap}
-    .ftab{background:transparent;border:1px solid var(--bdr);padding:8px 16px;border-radius:20px;color:var(--muted);cursor:pointer;font-size:12px;transition:0.2s;font-weight:500}
+    /* Filters & Search */
+    .filter-row{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+    .ftab{background:transparent;border:1px solid var(--bdr);padding:8px 16px;border-radius:20px;color:var(--muted);cursor:pointer;font-size:11px;transition:0.2s;font-weight:600;text-transform:uppercase;letter-spacing:1px}
     .ftab.active{border-color:var(--gold);color:var(--gold);background:rgba(201,168,76,0.05)}
     
     .controls{display:flex;gap:10px;margin-bottom:30px}
-    .si2{flex:1;background:var(--bg3);border:1px solid var(--bdr);padding:14px 20px;border-radius:12px;color:var(--white);font-size:15px;outline:none}
-    .si2:focus{border-color:var(--gold)}
-    .meb{background:var(--bg3);border:1px solid var(--bdr);padding:0 24px;border-radius:12px;color:var(--muted);cursor:pointer;font-weight:600;font-size:13px}
+    .si2{flex:1;background:var(--bg3);border:1px solid var(--bdr);padding:14px 20px;border-radius:12px;color:var(--white);font-size:15px;outline:none;transition: 0.2s;}
+    .si2:focus{border-color:var(--gold); box-shadow: 0 0 0 4px rgba(201,168,76,0.05);}
+    .meb{background:var(--bg3);border:1px solid var(--bdr);padding:0 24px;border-radius:12px;color:var(--muted);cursor:pointer;font-weight:700;font-size:12px;transition: 0.2s;}
     .meb.on{border-color:var(--teal);color:var(--teal);background:rgba(74,155,143,0.1)}
 
-    /* Grid */
+    /* Grid Layout */
     .eg{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:14px;margin-bottom:60px}
-    .ec{background:var(--bg3);border:1px solid var(--bdr);border-radius:14px;padding:20px;transition:0.3s var(--ease);position:relative}
+    .ec{background:var(--bg3);border:1px solid var(--bdr);border-radius:14px;padding:20px;transition:0.3s var(--ease);position:relative;display:flex;flex-direction:column}
     .ec:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:var(--shadow)}
     
-    /* Key Date Special Styling */
-    .ec.rk{border-left:4px solid var(--red)}
-    .ec.rk .cser{color:var(--red)}
-    .ec.rk .ctit{color:var(--white)}
+    /* Dynamic Left Borders */
     .ec.mine{border-left:4px solid var(--teal)}
+    .ec.rk{border-left:4px solid var(--red)} /* Red for Key Dates */
+    .ec.rk .cser { color: var(--red); }
 
-    .ct{display:flex;justify-content:space-between;margin-bottom:12px}
-    .cser{font-family:var(--fm);font-size:9px;color:var(--gold);text-transform:uppercase;font-weight:700}
+    .ct{display:flex;justify-content:space-between;margin-bottom:12px;align-items:center}
+    .cser{font-family:var(--fm);font-size:9px;color:var(--gold);text-transform:uppercase;font-weight:700;letter-spacing:1px}
     .ccod{font-family:var(--fm);font-size:10px;color:var(--muted)}
-    .ctit{font-size:15px;font-weight:500;margin-bottom:18px;line-height:1.4;height:42px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    
+    .ctit{font-size:15px;font-weight:500;margin-bottom:18px;line-height:1.4;height:42px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;flex-grow:1}
     
     .cf{display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,0.05);padding-top:15px}
-    .cdate{font-weight:600;font-size:13px}
+    .cdate{font-weight:700;font-size:13px;color:var(--white)}
     .cb{display:flex;align-items:center;gap:6px}
-    .cbdg{font-family:var(--fm);font-size:9px;padding:2px 6px;border-radius:4px;background:rgba(255,255,255,0.05)}
+    .cbdg{font-family:var(--fm);font-size:9px;padding:2px 6px;border-radius:4px;background:rgba(255,255,255,0.05);font-weight:600}
     .am{color:var(--gold)}.pm{color:var(--teal)}
     
     .star{background:none;border:none;color:var(--muted);font-size:22px;cursor:pointer;transition:0.2s}
-    .star.on{color:var(--gold)}
+    .star.on{color:var(--gold);transform:scale(1.1)}
 
-    footer{padding:30px 0;border-top:1px solid var(--bdr);text-align:center;font-size:11px;color:var(--muted)}
+    footer{padding:30px 0;border-top:1px solid var(--bdr);text-align:center;font-size:11px;color:var(--muted);font-family:var(--fm)}
     
     @media (max-width: 600px) {
       .nstrip{padding:20px;gap:20px}
       .cdg{gap:10px}
-      .cdn{font-size:24px}
+      .cdn{font-size:22px}
+      .filter-row { gap: 4px; }
+      .ftab { padding: 6px 12px; font-size: 10px; }
     }
   </style>
 </head>
@@ -91,18 +93,198 @@
       <div class="blogo">N</div>
       <span class="bname">Exam<span>Nova</span></span>
     </a>
-    <span class="sinfo" id="sinfo">Syncing...</span>
+    <span class="sinfo" id="sinfo">Syncing Live Data...</span>
   </div>
 </header>
 
 <main class="wrap">
   <div class="hero">
-    <p class="hsup">Academic Command Center</p>
+    <p class="hsup">Combined Academic Command Center</p>
   </div>
 
   <div class="nstrip">
     <div class="ninfo">
-      <div class="nlbl" id="nstatus">Next Target</div>
+      <div class="nlbl" id="nstatus">Pulse Status</div>
+      <div class="ntitle" id="ntitle">Awaiting Input...</div>
+      <div class="nsub" id="nsub">Star an event to begin tracking.</div>
+    </div>
+    <div class="cdg">
+      <div class="cdb"><div class="cdn" id="cdd">00</div><div class="cdl2">Days</div></div>
+      <div class="cdb"><div class="cdn" id="cdh">00</div><div class="cdl2">Hrs</div></div>
+      <div class="cdb"><div class="cdn" id="cdm">00</div><div class="cdl2">Min</div></div>
+      <div class="cdb"><div class="cdn" id="cds">00</div><div class="cdl2">Sec</div></div>
+    </div>
+  </div>
+
+  <div class="filter-row">
+    <button class="ftab active" data-q="all">Everything</button>
+    <button class="ftab" data-q="ial">IAL (A-Levels)</button>
+    <button class="ftab" data-q="ig">IGCSE</button>
+    <button class="ftab" data-q="kd">Key Deadlines</button>
+  </div>
+
+  <div class="controls">
+    <input class="si2" id="search" type="text" placeholder="Search by subject, month, or unit code..." autofocus />
+    <button class="meb" id="mebtn">★ My Schedule</button>
+  </div>
+
+  <div id="cal" class="eg"></div>
+</main>
+
+<footer>
+  <div class="wrap">ExamNova &nbsp;&middot;&nbsp; 2026 Combined Series &nbsp;&middot;&nbsp; Verified Pearson Data</div>
+</footer>
+
+<script>
+'use strict';
+
+let ALL = [];
+let MY = new Set(JSON.parse(localStorage.getItem('Nova_Starred') || '[]'));
+let MYONLY = false;
+let QRY = '';
+let QUAL_FILTER = 'all';
+let CDT = null;
+
+// Persistent Funny Messages
+const MESSAGES = [
+  "Your schedule is a blank canvas of academic peace.",
+  "No exams chosen? You're either a graduate or a magician.",
+  "DENIAL is not just a river in Egypt. Pick a paper.",
+  "Your 'My Schedule' is currently a desert. Star something!",
+  "Chilling level: Expert. Add an exam to break the silence."
+];
+const SESSION_MSG = MESSAGES[Math.floor(Math.random() * MESSAGES.length)];
+
+async function init() {
+  try {
+    const resp = await fetch('timetables.json');
+    if (!resp.ok) throw new Error("JSON not found");
+    const data = await resp.json();
+    
+    ALL = data.map(e => ({
+      ...e,
+      jsDate: new Date(e.dateStr + (e.sess === 'PM' ? 'T13:30:00' : 'T09:00:00'))
+    })).sort((a,b) => a.jsDate - b.jsDate);
+
+    document.getElementById('sinfo').textContent = ALL.length + ' Entries Synced';
+    updatePulse();
+    render();
+  } catch (e) {
+    document.getElementById('cal').innerHTML = `<div style="text-align:center; padding:50px; color:var(--red);">Unable to load timetables.json. Run your scraper first.</div>`;
+  }
+}
+
+function updatePulse() {
+  const now = new Date();
+  // Find next target among starred items in the future
+  const next = ALL.find(e => MY.has(e.id) && e.jsDate > now);
+  
+  const titleEl = document.getElementById('ntitle');
+  const subEl = document.getElementById('nsub');
+  const statEl = document.getElementById('nstatus');
+
+  if (MY.size === 0) {
+    statEl.textContent = "Status: Chilling";
+    titleEl.textContent = SESSION_MSG;
+    subEl.textContent = "↑ Click the star on any card to start the countdown.";
+    CDT = null;
+    return;
+  }
+
+  if (!next) {
+    statEl.textContent = "Status: Finished";
+    titleEl.textContent = "All exams finished! Time to relax.";
+    subEl.textContent = "Your starred schedule is clear.";
+    CDT = null;
+    return;
+  }
+
+  statEl.textContent = "Next Event: " + next.code;
+  titleEl.textContent = next.title;
+  subEl.textContent = next.jsDate.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' }) + (next.sess ? " — " + next.sess : "");
+  CDT = next.jsDate;
+}
+
+function tick() {
+  if (!CDT) {
+    ['cdd','cdh','cdm','cds'].forEach(id => document.getElementById(id).textContent = '00');
+    return;
+  }
+  const diff = CDT - Date.now();
+  if (diff <= 0) { updatePulse(); return; }
+  
+  const d = Math.floor(diff / 86400000);
+  const h = Math.floor((diff % 86400000) / 3600000);
+  const m = Math.floor((diff % 3600000) / 60000);
+  const s = Math.floor((diff % 60000) / 1000);
+  
+  document.getElementById('cdd').textContent = String(d).padStart(2, '0');
+  document.getElementById('cdh').textContent = String(h).padStart(2, '0');
+  document.getElementById('cdm').textContent = String(m).padStart(2, '0');
+  document.getElementById('cds').textContent = String(s).padStart(2, '0');
+}
+
+function render() {
+  const cal = document.getElementById('cal');
+  const filtered = ALL.filter(e => {
+    if (MYONLY && !MY.has(e.id)) return false;
+    if (QUAL_FILTER !== 'all' && e.qualType !== QUAL_FILTER) return false;
+    const term = QRY.toLowerCase();
+    return e.title.toLowerCase().includes(term) || e.code.toLowerCase().includes(term);
+  });
+
+  if (filtered.length === 0) {
+    cal.innerHTML = `<div style="grid-column: 1/-1; text-align:center; padding:60px; color:var(--muted);">No matching entries found. Try adjusting your filters.</div>`;
+    return;
+  }
+
+  cal.innerHTML = filtered.map(e => `
+    <div class="ec ${e.type === 'keydate' ? 'rk' : ''} ${MY.has(e.id) ? 'mine' : ''}">
+      <div class="ct">
+        <span class="cser">${e.tag}</span>
+        <span class="ccod">${e.code}</span>
+      </div>
+      <div class="ctit">${e.title}</div>
+      <div class="cf">
+        <div class="cb">
+          <span class="cdate">${e.jsDate.toLocaleDateString('en-GB', {day:'2-digit', month:'short'})}</span>
+          ${e.sess ? `<span class="cbdg ${e.sess.toLowerCase()}">${e.sess}</span>` : ''}
+        </div>
+        <button class="star ${MY.has(e.id) ? 'on' : ''}" onclick="toggleStar('${e.id}')">★</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+window.toggleStar = (id) => {
+  MY.has(id) ? MY.delete(id) : MY.add(id);
+  localStorage.setItem('Nova_Starred', JSON.stringify([...MY]));
+  render();
+  updatePulse();
+};
+
+document.getElementById('search').oninput = (e) => { QRY = e.target.value; render(); };
+
+document.getElementById('mebtn').onclick = () => {
+  MYONLY = !MYONLY;
+  document.getElementById('mebtn').classList.toggle('on', MYONLY);
+  render();
+};
+
+document.querySelectorAll('.ftab').forEach(btn => {
+    btn.onclick = () => {
+        document.querySelectorAll('.ftab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        QUAL_FILTER = btn.dataset.q;
+        render();
+    };
+});
+
+setInterval(tick, 1000);
+init();
+</script>
+</body>
+</html>
       <div class="ntitle" id="ntitle">...</div>
       <div class="nsub" id="nsub">...</div>
     </div>
